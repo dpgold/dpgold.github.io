@@ -1,8 +1,8 @@
 """Render index.html from data/*.json.  Run:  py build.py"""
-import html, json, pathlib
+import datetime, html, json, pathlib
 from collections import defaultdict
 
-VERSION = "1.4.1"
+VERSION = "1.5.0"
 UPDATED = "November 2026"
 
 ROOT = pathlib.Path(__file__).parent
@@ -38,7 +38,7 @@ def hero():
     links = "".join(f'<a class="pill" href="{e(l["url"])}" target="_blank" rel="noopener">{e(l["label"])}</a>' for l in P["links"])
     stats = "".join(f'<div class="stat"><span class="n">{e(s["n"])}</span><span class="l">{e(s["label"])}</span></div>' for s in P["stats"])
     return f"""
-<header class="hero" id="top">
+<header class="hero">
   <img class="photo" src="{e(P['photo'])}" alt="Portrait of {e(P['name'])}" width="800" height="670">
   <div class="hero-text">
     <h1>{e(P['name'])}</h1>
@@ -51,7 +51,7 @@ def hero():
 
 
 def about():
-    return '<section id="about"><h2>About</h2>' + "".join(f"<p>{p}</p>" for p in P["about"]) + "</section>"
+    return '<section id="about">' + hero() + '<h2>About</h2>' + "".join(f"<p>{p}</p>" for p in P["about"]) + "</section>"
 
 
 def experience():
@@ -153,10 +153,21 @@ def honors():
     return f'<section id="honors"><h2>Honors</h2><ul class="honors">{h}</ul><h2 class="sub">Service &amp; advisory</h2><ul class="edu">{s}</ul></section>'
 
 
+def months_since(iso):
+    d, today = datetime.date.fromisoformat(iso), datetime.date.today()
+    return (today.year - d.year) * 12 + today.month - d.month - (today.day < d.day)
+
+
 def disclosures():
     # Same grouping as DirDash's "Generate Summary" with the All-time window.
+    def recency(g):
+        # Personal fees: say plainly when none are current. site.js refreshes the count on load.
+        end = g.get("last_end", "")
+        if g["label"] != "Personal fees" or not end or end == "ongoing" or end >= datetime.date.today().isoformat():
+            return ""
+        return f'<p class="recent" data-end="{end}"><strong>None in the last {months_since(end)} months.</strong></p>'
     groups = "".join(
-        f'<div class="disc"><h3>{e(g["label"])}</h3><p>{e(", ".join(g["sponsors"]))}.</p></div>' for g in DISC["groups"])
+        f'<div class="disc"><h3>{e(g["label"])}</h3><p>{e(", ".join(g["sponsors"]))}.</p>{recency(g)}</div>' for g in DISC["groups"])
     return (f'<section id="disclosures"><h2>Disclosures</h2>'
             f'<p class="lede">Sources of research support, personal fees, and equity interests, all years.</p>{groups}</section>')
 
@@ -186,9 +197,8 @@ page = f"""<!doctype html>
 <link rel="stylesheet" href="style.css?v={VERSION}">
 </head>
 <body>
-<nav class="top"><div class="wrap"><div class="links">{nav}</div></div></nav>
+<nav class="top"><div class="wrap"><a class="brand" href="#about">{e(P['name'])}</a><div class="links">{nav}</div></div></nav>
 <main class="wrap">
-{hero()}
 {about()}
 {experience()}
 {publications()}

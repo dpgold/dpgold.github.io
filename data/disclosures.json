@@ -70,20 +70,23 @@
     "Sprint Foundation",
     "Walgreens Boots Alliance",
     "West Foundation"
-   ]
+   ],
+   "last_end": "2029-06-30"
   },
   {
    "label": "Personal fees",
    "sponsors": [
     "Edwards Lifesciences",
     "GRAIL"
-   ]
+   ],
+   "last_end": "2025-02-06"
   },
   {
    "label": "Equity",
    "sponsors": [
     "EntityRisk"
-   ]
+   ],
+   "last_end": "2027-06-30"
   }
  ]
 }

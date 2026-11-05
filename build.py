@@ -2,7 +2,7 @@
 import datetime, html, json, pathlib, re
 from collections import defaultdict
 
-VERSION = "1.6.0"
+VERSION = "1.6.1"
 UPDATED = "November 2026"
 
 ROOT = pathlib.Path(__file__).parent
@@ -54,7 +54,8 @@ def hero():
     <nav class="pills" aria-label="Profiles">{links}</nav>
   </div>
 </header>
-<div class="stats">{stats}</div>"""
+<div class="stats">{stats}</div>
+<p class="note statsrc">Citations and h-index from <a href="https://scholar.google.com/citations?user=E3XmWfEAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>, {UPDATED}.</p>"""
 
 
 def about():

@@ -23,7 +23,7 @@
   "outlet": "JAMA Health Forum",
   "date": "June 26, 2026",
   "year": 2026,
-  "url": "https://media.jamanetwork.com/10.1001/jamahealthforum.2026.1542",
+  "url": "https://jamanetwork.com/journals/jama-health-forum/fullarticle/2850468",
   "id": 2
  },
  {
@@ -32,7 +32,7 @@
   "outlet": "The Hill",
   "date": "June 13, 2026",
   "year": 2026,
-  "url": "",
+  "url": "https://thehill.com/opinion/congress-blog/labor/5921577-retirement-decision-longevity-benefits/",
   "id": 3
  },
  {
@@ -50,7 +50,7 @@
   "outlet": "STAT",
   "date": "May 15, 2025",
   "year": 2025,
-  "url": "https://schaeffer.usc.edu/research/ensuring-most-favored-nation-drug-pricing-doesnt-sicken-us/",
+  "url": "https://www.statnews.com/2025/05/15/most-favored-nation-pricing-drug-costs-us-europe-innovation-research/",
   "id": 5
  },
  {
@@ -77,7 +77,7 @@
   "outlet": "STAT",
   "date": "April 3, 2024",
   "year": 2024,
-  "url": "https://schaeffer.usc.edu/research/medicare-coverage-of-weight-loss-drugs-could-save-billions-of-dollars/",
+  "url": "https://www.statnews.com/2024/04/03/medicare-coverage-of-weight-loss-drugs-could-save-the-u-s-billions-of-dollars/",
   "id": 8
  },
  {
@@ -86,7 +86,7 @@
   "outlet": "The Hill",
   "date": "December 9, 2023",
   "year": 2023,
-  "url": "https://schaeffer.usc.edu/research/bidens-hepatitis-c-initiative-needs-help-from-the-private-market/",
+  "url": "https://thehill.com/opinion/healthcare/4349771-bidens-hepatitis-c-initiative-needs-help-from-the-private-market/",
   "id": 9
  },
  {
@@ -95,7 +95,7 @@
   "outlet": "MedPage Today",
   "date": "November 21, 2023",
   "year": 2023,
-  "url": "https://healthpolicy.usc.edu/article/want-lower-obesity-drug-costs-medicare-key",
+  "url": "https://www.medpagetoday.com/opinion/second-opinions/107432",
   "id": 10
  },
  {
@@ -104,7 +104,7 @@
   "outlet": "The Hill",
   "date": "May 26, 2023",
   "year": 2023,
-  "url": "https://schaeffer.usc.edu/research/four-ways-to-make-drug-price-negotiations-work-for-everyone/",
+  "url": "https://thehill.com/opinion/healthcare/4020422-four-ways-to-make-drug-price-negotiations-work-for-everyone/",
   "id": 11
  },
  {
@@ -140,7 +140,7 @@
   "outlet": "Wall Street Journal",
   "date": "July 7, 2022",
   "year": 2022,
-  "url": "https://schaeffer.usc.edu/research/drugmakers-arent-driving-inflation/",
+  "url": "https://www.wsj.com/articles/drugmakers-driving-inflation-perscription-price-control-congress-insulin-11657225910",
   "id": 15
  },
  {
@@ -212,7 +212,7 @@
   "outlet": "Los Angeles Times",
   "date": "April 19, 2020",
   "year": 2020,
-  "url": "",
+  "url": "https://www.latimes.com/opinion/story/2020-04-19/smog-alerts-virus-covid",
   "id": 23
  },
  {
@@ -257,7 +257,7 @@
   "outlet": "The Hill",
   "date": "June 14, 2019",
   "year": 2019,
-  "url": "https://schaeffer.usc.edu/research/heres-how-we-can-control-drug-costs-while-spurring-innovation/",
+  "url": "https://thehill.com/opinion/healthcare/448453-heres-how-we-can-control-drug-costs-while-spurring-innovation",
   "id": 28
  },
  {
@@ -266,7 +266,7 @@
   "outlet": "Wall Street Journal",
   "date": "March 20, 2019",
   "year": 2019,
-  "url": "https://schaeffer.usc.edu/research/health-cares-killer-app-life-insurance/",
+  "url": "https://www.wsj.com/articles/health-cares-killer-app-life-insurance-11553122054",
   "id": 29
  },
  {
@@ -293,7 +293,7 @@
   "outlet": "Sacramento Bee",
   "date": "October 11, 2018",
   "year": 2018,
-  "url": "",
+  "url": "https://www.sacbee.com/opinion/california-forum/article219805750.html",
   "id": 32
  },
  {
@@ -302,7 +302,7 @@
   "outlet": "Washington Post",
   "date": "August 28, 2018",
   "year": 2018,
-  "url": "",
+  "url": "https://www.washingtonpost.com/opinions/trump-might-actually-lower-drug-prices/2018/08/28/c6c69eaa-aa0d-11e8-8f4b-aee063e14538_story.html",
   "id": 33
  },
  {
@@ -338,7 +338,7 @@
   "outlet": "Los Angeles Times",
   "date": "April 10, 2018",
   "year": 2018,
-  "url": "",
+  "url": "https://www.latimes.com/opinion/op-ed/la-oe-goldman-trish-walmart-insurance-20180410-story.html",
   "id": 37
  },
  {
@@ -356,7 +356,7 @@
   "outlet": "MarketWatch",
   "date": "February 1, 2018",
   "year": 2018,
-  "url": "https://schaeffer.usc.edu/research/this-is-whats-at-stake-if-u-s-drug-prices-fall-and-europeans-dont-pay-more/",
+  "url": "https://www.marketwatch.com/story/this-is-whats-at-stake-if-us-drug-prices-fall-and-europeans-dont-pay-more-2018-01-31",
   "id": 39
  },
  {
@@ -401,7 +401,7 @@
   "outlet": "MarketWatch",
   "date": "July 30, 2017",
   "year": 2017,
-  "url": "",
+  "url": "https://www.marketwatch.com/story/this-is-how-congress-could-create-a-bipartisan-health-care-bill-2017-07-19?mg=prod/accounts-mw",
   "id": 44
  },
  {
@@ -410,7 +410,7 @@
   "outlet": "Wall Street Journal",
   "date": "June 19, 2017",
   "year": 2017,
-  "url": "",
+  "url": "https://www.wsj.com/articles/take-me-out-to-the-pill-game-1497913367",
   "id": 45
  },
  {
@@ -446,7 +446,7 @@
   "outlet": "Sacramento Bee",
   "date": "February 14, 2017",
   "year": 2017,
-  "url": "",
+  "url": "https://www.sacbee.com/opinion/op-ed/soapbox/article132714019.html",
   "id": 49
  },
  {
@@ -491,7 +491,7 @@
   "outlet": "New York Times",
   "date": "August 22, 2016",
   "year": 2016,
-  "url": "",
+  "url": "https://www.nytimes.com/roomfordebate/2016/08/22/hospitals-that-feel-like-hotels/hospital-care-for-those-who-can-afford-it-helps-care-for-those-who-cant",
   "id": 54
  },
  {
@@ -500,7 +500,7 @@
   "outlet": "Modern Healthcare",
   "date": "June 29, 2016",
   "year": 2016,
-  "url": "",
+  "url": "https://www.modernhealthcare.com/article/20160629/NEWS/160629893",
   "id": 55
  },
  {
@@ -563,7 +563,7 @@
   "outlet": "Wall Street Journal",
   "date": "Feb 25, 2015",
   "year": 2015,
-  "url": "",
+  "url": "https://blogs.wsj.com/washwire/2015/02/25/medicare-spending-cuts-and-hospital-productivity-gains/",
   "id": 62
  },
  {
@@ -608,7 +608,7 @@
   "outlet": "New York Times",
   "date": "November 23, 2012",
   "year": 2012,
-  "url": "",
+  "url": "https://economix.blogs.nytimes.com/2012/11/23/health-insurance-exchanges-may-be-too-small-to-succeed/?_r=0",
   "id": 67
  },
  {
@@ -626,7 +626,7 @@
   "outlet": "Health Affairs Blog",
   "date": "May 14, 2012",
   "year": 2012,
-  "url": "",
+  "url": "https://healthaffairs.org/blog/2012/05/14/when-epidemiology-goes-astray-valuing-cancer-care-in-the-united-states-and-europe/",
   "id": 69
  },
  {
@@ -635,7 +635,7 @@
   "outlet": "Institute of Medicine Commentary",
   "date": "January 27, 2012",
   "year": 2012,
-  "url": "",
+  "url": "https://nam.edu/perspectives-2012-benefit-design-should-reflect-value/",
   "id": 70
  },
  {
@@ -653,7 +653,7 @@
   "outlet": "Huffington Post",
   "date": "May 31, 2011",
   "year": 2011,
-  "url": "",
+  "url": "https://www.huffingtonpost.com/dana-p-goldman/congress-and-medicare_b_869226.html",
   "id": 72
  },
  {
@@ -662,7 +662,7 @@
   "outlet": "New York Times",
   "date": "January 19, 2010",
   "year": 2010,
-  "url": "",
+  "url": "https://economix.blogs.nytimes.com/2010/01/19/can-immigrants-solve-our-health-care-problems/",
   "id": 73
  },
  {
@@ -671,7 +671,7 @@
   "outlet": "New York Times",
   "date": "December 9, 2009",
   "year": 2009,
-  "url": "",
+  "url": "https://economix.blogs.nytimes.com/2009/12/09/i-am-a-death-panelist-i-am-not-the-problem/",
   "id": 74
  },
  {
@@ -680,7 +680,7 @@
   "outlet": "CNN.com",
   "date": "August 21, 2009",
   "year": 2009,
-  "url": "",
+  "url": "https://www.rand.org/blog/2009/08/fix-the-healthcare-system-and-fight-the-recession-too.html",
   "id": 75
  },
  {
@@ -689,7 +689,7 @@
   "outlet": "New York Times",
   "date": "June 23, 2009",
   "year": 2009,
-  "url": "",
+  "url": "https://economix.blogs.nytimes.com/2009/06/23/americas-health-care-priorities-i-consumers-patients-workers/",
   "id": 76
  },
  {
@@ -698,7 +698,7 @@
   "outlet": "KQED Healthy Ideas",
   "date": "April 29, 2009",
   "year": 2009,
-  "url": "",
+  "url": "https://blogs.kqed.org/healthyideas/2009/04/29/its-about-limiting-treatment-to-those-who-need-it/comment-page-1/",
   "id": 77
  },
  {
@@ -716,7 +716,7 @@
   "outlet": "United Press International",
   "date": "February 20, 2006",
   "year": 2006,
-  "url": "",
+  "url": "https://www.rand.org/blog/2006/02/the-hsa-mirage.html",
   "id": 79
  },
  {
@@ -725,7 +725,7 @@
   "outlet": "Riverside Press Enterprise",
   "date": "October 24, 2005",
   "year": 2005,
-  "url": "",
+  "url": "https://www.rand.org/blog/2005/10/pressure-from-rising-health-care-costs-how-can-consumers.html",
   "id": 80
  },
  {
@@ -734,7 +734,7 @@
   "outlet": "United Press International",
   "date": "October 10, 2005",
   "year": 2005,
-  "url": "",
+  "url": "https://www.upi.com/Outside-view-Health-costs-of-Katrina/97201128958762/",
   "id": 81
  },
  {
@@ -743,7 +743,7 @@
   "outlet": "Los Angeles Times",
   "date": "December 11, 2002",
   "year": 2002,
-  "url": "",
+  "url": "https://www.rand.org/blog/2002/12/take-two-aspirin-and-call-congress.html",
   "id": 82
  },
  {
@@ -752,7 +752,7 @@
   "outlet": "Los Angeles Times",
   "date": "November 5, 2000",
   "year": 2000,
-  "url": "",
+  "url": "https://articles.latimes.com/2000/nov/05/opinion/op-47267",
   "id": 83
  }
 ]

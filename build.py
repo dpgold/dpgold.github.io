@@ -2,7 +2,7 @@
 import datetime, html, json, pathlib, re
 from collections import defaultdict
 
-VERSION = "1.6.2"
+VERSION = "1.7.0"
 UPDATED = "November 2026"
 
 ROOT = pathlib.Path(__file__).parent
@@ -110,15 +110,19 @@ and <a href="https://orcid.org/0000-0001-8498-6396" target="_blank" rel="noopene
 
 
 def grants():
-    rows = "".join(
-        f'<li><span class="gy">{e(g["years"])}</span><span class="gt">{e(g["title"])}'
-        f'<span class="gs">{e(g["sponsor"])}{" · Co-PI" if g["role"] else ""}</span></span>'
-        f'<span class="ga">${g["amount"]:,}</span></li>'
-        for g in GRANTS)
+    def rows(gs):
+        return "".join(
+            f'<li><span class="gy">{e(g["years"])}</span><span class="gt">{e(g["title"])}'
+            f'<span class="gs">{e(g["sponsor"])}{" · Co-PI" if g["role"] else ""}</span></span>'
+            f'<span class="ga">${g["amount"]:,}</span></li>'
+            for g in gs)
+    out = []
+    for fed, label in ((True, "Federal"), (False, "Non-Federal")):
+        gs = [g for g in GRANTS if g["federal"] == fed]
+        total = sum(g["amount"] for g in gs)
+        out.append(f'<h3 class="ghead"><span>{label}</span><span class="gsub">{len(gs)} awards · ${total:,}</span></h3><ul class="grants">{rows(gs)}</ul>')
     return (f'<section id="grants"><h2>Selected grants</h2>'
-            f'<p class="lede">Major federal and foundation awards as principal or co-principal investigator, from the National Institutes of Health, '
-            f'AHRQ, CMS, and the MacArthur Foundation, among others.</p><ul class="grants">{rows}</ul></section>')
-
+            f'<p class="lede">Major awards as principal or co-principal investigator.</p>{"".join(out)}</section>')
 
 def opeds():
     by_year = defaultdict(list)

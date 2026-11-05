@@ -4,223 +4,255 @@
   "title": "Economic Policy and Analysis",
   "sponsor": "Centers for Medicare & Medicaid Services (contract)",
   "amount": 1500000,
-  "role": ""
+  "role": "",
+  "federal": true
  },
  {
   "years": "2024–2029",
   "title": "The United States Cost of Dementia Model: Quantifying Current and Future Impacts of Alzheimer’s Disease and Related Dementias",
   "sponsor": "National Institute on Aging",
   "amount": 7849912,
-  "role": "Co-PI"
+  "role": "Co-PI",
+  "federal": true
  },
  {
   "years": "2021–2026",
   "title": "Action for Health in Diabetes (LookAHEAD)",
   "sponsor": "National Institute on Aging (via Wake Forest University)",
   "amount": 885652,
-  "role": ""
+  "role": "",
+  "federal": true
  },
  {
   "years": "2020–2025",
   "title": "Center for Advancing Sociodemographic and Economic Study of Alzheimer’s Disease and Related Dementias (CeASES-ADRD)",
   "sponsor": "National Institute on Aging",
   "amount": 4602701,
-  "role": ""
+  "role": "",
+  "federal": true
  },
  {
   "years": "2019–2022",
   "title": "Advancing Palliative Care through Economic Research and Policy Analyses",
   "sponsor": "Gordon and Betty Moore Foundation",
   "amount": 482292,
-  "role": ""
+  "role": "",
+  "federal": false
  },
  {
   "years": "2018–2023",
   "title": "Ensuring Access to Novel Alzheimer’s and Dementia Treatments",
   "sponsor": "National Institutes of Health",
   "amount": 2333069,
-  "role": "Co-PI"
+  "role": "Co-PI",
+  "federal": true
  },
  {
   "years": "2017–2022",
   "title": "The Other California: Health Policy Challenges Facing Low-Income Californians Under Age Five",
   "sponsor": "First 5 LA",
   "amount": 625000,
-  "role": ""
+  "role": "",
+  "federal": false
  },
  {
   "years": "2016–2022",
   "title": "The Long-Term Benefits of Interventions to Improve T2D Outcomes",
   "sponsor": "National Institutes of Health",
   "amount": 2575098,
-  "role": "Co-PI"
+  "role": "Co-PI",
+  "federal": true
  },
  {
   "years": "2016",
   "title": "Understanding and Modeling Innovation in Alzheimer’s Disease",
   "sponsor": "National Institute on Aging",
   "amount": 430208,
-  "role": ""
+  "role": "",
+  "federal": true
  },
  {
   "years": "2015–2019",
   "title": "One Year Day-and-Night Home Closed Loop in Young People with T1D",
   "sponsor": "National Institutes of Health",
   "amount": 6300518,
-  "role": "Co-PI"
+  "role": "Co-PI",
+  "federal": true
  },
  {
   "years": "2014",
   "title": "Technological Innovation in Health Care and the Long-Term Fiscal Outlook",
   "sponsor": "National Institute on Aging",
   "amount": 799374,
-  "role": ""
+  "role": "",
+  "federal": true
  },
  {
   "years": "2013–2019",
   "title": "Transforming Research and Clinical Knowledge in Traumatic Brain Injury (TRACK-TBI)",
   "sponsor": "National Institute of Neurological Disorders and Stroke",
   "amount": 770663,
-  "role": ""
+  "role": "",
+  "federal": true
  },
  {
   "years": "2012–2023",
   "title": "Resource Center for Minority Aging Research",
   "sponsor": "National Institutes of Health",
   "amount": 4229511,
-  "role": ""
+  "role": "",
+  "federal": true
  },
  {
   "years": "2012–2015",
   "title": "MacArthur Foundation Research Network on Aging Society",
   "sponsor": "MacArthur Foundation",
   "amount": 500750,
-  "role": ""
+  "role": "",
+  "federal": false
  },
  {
   "years": "2011–2016",
   "title": "An Economic and Behavioral Evaluation of Medicare Part D",
   "sponsor": "National Institute on Aging",
   "amount": 1931757,
-  "role": ""
+  "role": "",
+  "federal": true
  },
  {
   "years": "2010–2013",
   "title": "The Science of Medicare Reform",
   "sponsor": "National Institutes of Health",
   "amount": 5500668,
-  "role": "Co-PI"
+  "role": "Co-PI",
+  "federal": true
  },
  {
   "years": "2010–2012",
   "title": "Aging Society Benefits and Cost of Interventions",
   "sponsor": "MacArthur Foundation",
   "amount": 431623,
-  "role": ""
+  "role": "",
+  "federal": false
  },
  {
   "years": "2009–2012",
   "title": "Quality of Life and Productivity",
   "sponsor": "InHealth (Institute for Health Technology Studies)",
   "amount": 879808,
-  "role": ""
+  "role": "",
+  "federal": false
  },
  {
   "years": "2009–2011",
   "title": "A Patient Centered Diabetes Registry",
   "sponsor": "InHealth (Institute for Health Technology Studies)",
   "amount": 879807,
-  "role": ""
+  "role": "",
+  "federal": false
  },
  {
   "years": "2009–2012",
   "title": "Economics of Treating Viral STIs",
   "sponsor": "National Institutes of Health",
   "amount": 498726,
-  "role": ""
+  "role": "",
+  "federal": true
  },
  {
   "years": "2008–2013",
   "title": "Improving Pharmacy Benefit Design",
   "sponsor": "National Institute on Aging",
   "amount": 825770,
-  "role": ""
+  "role": "",
+  "federal": true
  },
  {
   "years": "2007–2012",
   "title": "Robust Integration Modeling of Health, Wealth and Disability",
   "sponsor": "National Institute on Aging",
   "amount": 2929374,
-  "role": ""
+  "role": "",
+  "federal": true
  },
  {
   "years": "2004–2024",
   "title": "Roybal Center for Health Policy Simulation",
   "sponsor": "National Institute on Aging",
   "amount": 4317559,
-  "role": ""
+  "role": "",
+  "federal": true
  },
  {
   "years": "2003–2011",
   "title": "Education, Self-Management, and Adherence",
   "sponsor": "National Institute on Aging",
   "amount": 1692176,
-  "role": ""
+  "role": "",
+  "federal": true
  },
  {
   "years": "2003–2007",
   "title": "An Investigation of the Viatical Settlements Market",
   "sponsor": "National Institute on Aging",
   "amount": 948999,
-  "role": ""
+  "role": "",
+  "federal": true
  },
  {
   "years": "2001–2005",
   "title": "State and Federal Policy and Outcomes for HIV+ Adults",
   "sponsor": "Agency for Healthcare Research and Quality",
   "amount": 741722,
-  "role": ""
+  "role": "",
+  "federal": true
  },
  {
   "years": "2000–2001",
   "title": "The Impact of Prescription Drug Benefits",
   "sponsor": "California Healthcare Foundation",
   "amount": 698917,
-  "role": ""
+  "role": "",
+  "federal": false
  },
  {
   "years": "1999–2002",
   "title": "Cost of Cancer Treatment Study",
   "sponsor": "NIH, National Cancer Institute, and NSF",
   "amount": 3118310,
-  "role": ""
+  "role": "",
+  "federal": true
  },
  {
   "years": "1999–2003",
   "title": "Health Status and Medical Treatment of the Future Elderly: Implications for Medicare Program Expenditures",
   "sponsor": "Centers for Medicare & Medicaid Services",
   "amount": 1260259,
-  "role": ""
+  "role": "",
+  "federal": true
  },
  {
   "years": "1999–2002",
   "title": "Insurance Choices in the Medicare Population",
   "sponsor": "National Institute on Aging",
   "amount": 648406,
-  "role": ""
+  "role": "",
+  "federal": true
  },
  {
   "years": "1998–2002",
   "title": "Evaluation of the Medicare/DoD Subvention Demonstration",
   "sponsor": "Health Care Financing Administration",
   "amount": 1411439,
-  "role": ""
+  "role": "",
+  "federal": true
  },
  {
   "years": "1998",
   "title": "Feasibility Study to Measure the Cost of Cancer Trials",
   "sponsor": "National Cancer Institute and NSF",
   "amount": 400000,
-  "role": ""
+  "role": "",
+  "federal": true
  }
 ]

@@ -2,7 +2,7 @@
 import datetime, html, json, pathlib, re
 from collections import defaultdict
 
-VERSION = "1.9.5"
+VERSION = "1.10.0"
 UPDATED = "November 2026"
 
 ROOT = pathlib.Path(__file__).parent
@@ -145,7 +145,8 @@ def opeds():
 <div class="controls"><label class="sort">Outlet <select id="outlet">{opts}</select></label>
 <input id="oq" type="search" placeholder="Search titles" aria-label="Search op-ed titles"></div>
 <p class="authorpages">Author pages: {" ".join(f'<a class="pill" href="{e(a["url"])}" target="_blank" rel="noopener">{e(a["label"])}</a>' for a in P.get("author_pages", []))}</p>
-{''.join(blocks)}</section>"""
+{''.join(blocks)}
+<h2 class="sub">In the press</h2><ul class="opeds press">{''.join(f'<li><span class="outlet">{e(x["outlet"])}</span><span class="ot">{link(x["url"], x["title"])}<span class="oa">By {e(x["byline"])} · {e(x["date"])}</span></span></li>' for x in P.get("press", []))}</ul></section>"""
 
 
 def linkedin():

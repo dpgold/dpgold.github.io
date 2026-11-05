@@ -180,6 +180,24 @@
   "id": 19
  },
  {
+  "authors": "Kocher B, Goldman D",
+  "title": "The COVID-19 vaccines are coming. Here’s how they should be rolled out",
+  "outlet": "Los Angeles Times",
+  "date": "October 25, 2020",
+  "year": 2020,
+  "url": "https://www.latimes.com/opinion/story/2020-10-25/roll-out-vaccine-distribution",
+  "id": 84
+ },
+ {
+  "authors": "Goldman D, Conti D, Kahn ME",
+  "title": "Why COVID-19 vaccines need to prioritize ‘superspreaders’",
+  "outlet": "The Conversation",
+  "date": "September 3, 2020",
+  "year": 2020,
+  "url": "https://theconversation.com/why-covid-19-vaccines-need-to-prioritize-superspreaders-145232",
+  "id": 85
+ },
+ {
   "authors": "Goldman D, Taylor C",
   "title": "California Leads in Public Investment in Biomedical Innovation and It Is Beginning toShow Returns",
   "outlet": "The Evidence Base",
@@ -333,6 +351,15 @@
   "id": 36
  },
  {
+  "authors": "Gonzalez Gonzalez C, Goldman D",
+  "title": "NAFTA Talks’ Potential Diabetes Threat",
+  "outlet": "U.S. News & World Report",
+  "date": "April 11, 2018",
+  "year": 2018,
+  "url": "https://www.usnews.com/news/best-countries/articles/2018-04-11/commentary-nafta-talks-potential-diabetes-threat",
+  "id": 86
+ },
+ {
   "authors": "Goldman D,  Trish E",
   "title": "Walmart and CVS have 15,000 combined stores. Why are both trying to buy health insurance companies?",
   "outlet": "Los Angeles Times",
@@ -430,6 +457,15 @@
   "year": 2017,
   "url": "https://www.statnews.com/2017/06/08/value-based-drug-pricing/",
   "id": 47
+ },
+ {
+  "authors": "Goldman D, Bhattacharya J",
+  "title": "Sky-high drug prices for rare diseases show why Orphan Drug Act needs reform",
+  "outlet": "The Conversation",
+  "date": "March 16, 2017",
+  "year": 2017,
+  "url": "https://theconversation.com/sky-high-drug-prices-for-rare-diseases-show-why-orphan-drug-act-needs-reform-74144",
+  "id": 87
  },
  {
   "authors": "Hagopian K, Goldman D",
@@ -585,15 +621,6 @@
   "id": 64
  },
  {
-  "authors": "Goldman D, Leive A",
-  "title": "Why ‘Medicare-For-All’ Is Not The Answer",
-  "outlet": "Health Affairs Blog",
-  "date": "May 14, 2013",
-  "year": 2013,
-  "url": "http://www.healthaffairs.org/blog/2013/05/14/why-medicare-for-all-is-not-the-answer/",
-  "id": 65
- },
- {
   "authors": "Goldman D",
   "title": "What Health Care Can Learn from Netflix",
   "outlet": "LinkedIn",
@@ -601,6 +628,15 @@
   "year": 2013,
   "url": "https://www.linkedin.com/pulse/20130527215225-22738440-what-health-care-can-learn-from-netflix/",
   "id": 66
+ },
+ {
+  "authors": "Goldman D, Leive A",
+  "title": "Why ‘Medicare-For-All’ Is Not The Answer",
+  "outlet": "Health Affairs Blog",
+  "date": "May 14, 2013",
+  "year": 2013,
+  "url": "http://www.healthaffairs.org/blog/2013/05/14/why-medicare-for-all-is-not-the-answer/",
+  "id": 65
  },
  {
   "authors": "Goldman D, Chernew M, Jena AB",
@@ -630,15 +666,6 @@
   "id": 69
  },
  {
-  "authors": "Schaeffer L, Goldman D",
-  "title": "Benefit Design Should Reflect Value",
-  "outlet": "Institute of Medicine Commentary",
-  "date": "January 27, 2012",
-  "year": 2012,
-  "url": "https://nam.edu/perspectives/benefit-design-should-reflect-value/",
-  "id": 70
- },
- {
   "authors": "Chernew M, Lakdawalla D, Goldman D",
   "title": "Saving Medicare Dollars: Moving From The SGR To Bundled Payments",
   "outlet": "Health Affairs Blog",
@@ -646,6 +673,15 @@
   "year": 2012,
   "url": "https://www.healthaffairs.org/do/10.1377/forefront.20120224.017232/",
   "id": 71
+ },
+ {
+  "authors": "Schaeffer L, Goldman D",
+  "title": "Benefit Design Should Reflect Value",
+  "outlet": "Institute of Medicine Commentary",
+  "date": "January 27, 2012",
+  "year": 2012,
+  "url": "https://nam.edu/perspectives/benefit-design-should-reflect-value/",
+  "id": 70
  },
  {
   "authors": "Goldman D and Shah V",

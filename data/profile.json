@@ -321,5 +321,14 @@
   "name": "University of Southern California",
   "url": "https://www.usc.edu/",
   "logo": "img/usc-shield.png"
- }
+ },
+ "press": [
+  {
+   "title": "A Long View on Health Care: Think Like an Investor",
+   "outlet": "New York Times",
+   "byline": "Gina Kolata",
+   "date": "May 21, 2012",
+   "url": "https://www.nytimes.com/2012/05/22/health/views/a-long-view-on-health-care-think-like-an-investor.html"
+  }
+ ]
 }

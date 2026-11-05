@@ -2,7 +2,7 @@
 import datetime, html, json, pathlib, re
 from collections import defaultdict
 
-VERSION = "1.10.0"
+VERSION = "1.11.0"
 UPDATED = "November 2026"
 
 ROOT = pathlib.Path(__file__).parent
@@ -144,7 +144,6 @@ def opeds():
 <em>Washington Post</em>, <em>Los Angeles Times</em>, <em>STAT</em>, and <em>Health Affairs</em>.</p>
 <div class="controls"><label class="sort">Outlet <select id="outlet">{opts}</select></label>
 <input id="oq" type="search" placeholder="Search titles" aria-label="Search op-ed titles"></div>
-<p class="authorpages">Author pages: {" ".join(f'<a class="pill" href="{e(a["url"])}" target="_blank" rel="noopener">{e(a["label"])}</a>' for a in P.get("author_pages", []))}</p>
 {''.join(blocks)}
 <h2 class="sub">In the press</h2><ul class="opeds press">{''.join(f'<li><span class="outlet">{e(x["outlet"])}</span><span class="ot">{link(x["url"], x["title"])}<span class="oa">By {e(x["byline"])} · {e(x["date"])}</span></span></li>' for x in P.get("press", []))}</ul></section>"""
 
@@ -152,15 +151,18 @@ def opeds():
 def linkedin():
     if not POSTS:
         return ""
-    posts = sorted(POSTS, key=lambda x: -x["impressions"])
-    cards = "".join(
-        f'<li class="post"><p>{e(x["text"])}</p><div class="pm"><strong>{x["impressions"]:,}</strong> impressions · '
-        f'{x["reactions"]:,} reactions · {x["comments"]:,} comments<br>{e(x["date"])} · {link(x["url"], "View on LinkedIn →", "more")}</div></li>'
-        for x in posts)
-    return (f'<section id="linkedin"><h2>From LinkedIn</h2><p class="lede">Most-read posts of the past year, to 68,000+ followers. '
-            f'More on <a href="https://www.linkedin.com/in/danapgoldman/recent-activity/all/" target="_blank" rel="noopener">LinkedIn</a>.</p>'
-            f'<ul class="posts">{cards}</ul></section>')
-
+    by_year = defaultdict(list)
+    for x in POSTS:
+        by_year[int(x["date"][:4])].append(x)
+    blocks = []
+    for y in sorted(by_year, reverse=True):
+        rows = "".join(
+            f'<li><span class="outlet">{e(datetime.date.fromisoformat(x["date"]).strftime("%b ") + str(datetime.date.fromisoformat(x["date"]).day))}</span>'
+            f'<span class="ot">{link(x["url"], x["title"])}</span></li>' for x in sorted(by_year[y], key=lambda x: x["date"], reverse=True))
+        blocks.append(f'<div class="year"><h3>{y}</h3><ul class="opeds">{rows}</ul></div>')
+    return (f'<section id="linkedin"><h2>LinkedIn articles</h2><p class="lede">{len(POSTS)} articles published on LinkedIn. '
+            f'Follow on <a href="https://www.linkedin.com/in/danapgoldman/recent-activity/articles/" target="_blank" rel="noopener">LinkedIn</a>.</p>'
+            f'{"".join(blocks)}</section>')
 
 def honors():
     h = "".join(f'<li><span class="dates">{e(y)}</span><span>{e(t)}</span></li>' for y, t in P["honors"])
@@ -237,4 +239,4 @@ page = f"""<!doctype html>
 </html>
 """
 (ROOT / "index.html").write_text(page, encoding="utf-8")
-print(f"index.html written: {len(PUBS)} publications, {len(OPEDS)} op-eds, {len(POSTS)} LinkedIn posts")
+print(f"index.html written: {len(PUBS)} publications, {len(OPEDS)} op-eds, {len(POSTS)} LinkedIn articles")

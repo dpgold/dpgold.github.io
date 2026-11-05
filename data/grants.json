@@ -1,38 +1,66 @@
 [
  {
+  "years": "2026–2027",
+  "title": "Economic Policy and Analysis",
+  "sponsor": "Centers for Medicare & Medicaid Services (contract)",
+  "amount": 1500000,
+  "role": ""
+ },
+ {
   "years": "2024–2029",
   "title": "The United States Cost of Dementia Model: Quantifying Current and Future Impacts of Alzheimer’s Disease and Related Dementias",
   "sponsor": "National Institute on Aging",
   "amount": 7849912,
-  "role": ""
+  "role": "Co-PI"
  },
  {
   "years": "2021–2026",
   "title": "Action for Health in Diabetes (LookAHEAD)",
-  "sponsor": "National Institute on Aging",
-  "amount": 465061,
+  "sponsor": "National Institute on Aging (via Wake Forest University)",
+  "amount": 885652,
   "role": ""
  },
  {
   "years": "2020–2025",
   "title": "Center for Advancing Sociodemographic and Economic Study of Alzheimer’s Disease and Related Dementias (CeASES-ADRD)",
   "sponsor": "National Institute on Aging",
-  "amount": 3446417,
+  "amount": 4602701,
   "role": ""
  },
  {
-  "years": "2018–2022",
+  "years": "2019–2022",
+  "title": "Advancing Palliative Care through Economic Research and Policy Analyses",
+  "sponsor": "Gordon and Betty Moore Foundation",
+  "amount": 482292,
+  "role": ""
+ },
+ {
+  "years": "2018–2023",
   "title": "Ensuring Access to Novel Alzheimer’s and Dementia Treatments",
   "sponsor": "National Institutes of Health",
-  "amount": 1472383,
+  "amount": 2333069,
   "role": "Co-PI"
  },
  {
-  "years": "2016–2020",
+  "years": "2017–2022",
+  "title": "The Other California: Health Policy Challenges Facing Low-Income Californians Under Age Five",
+  "sponsor": "First 5 LA",
+  "amount": 625000,
+  "role": ""
+ },
+ {
+  "years": "2016–2022",
   "title": "The Long-Term Benefits of Interventions to Improve T2D Outcomes",
   "sponsor": "National Institutes of Health",
-  "amount": 2005653,
+  "amount": 2575098,
   "role": "Co-PI"
+ },
+ {
+  "years": "2016",
+  "title": "Understanding and Modeling Innovation in Alzheimer’s Disease",
+  "sponsor": "National Institute on Aging",
+  "amount": 430208,
+  "role": ""
  },
  {
   "years": "2015–2019",
@@ -40,6 +68,13 @@
   "sponsor": "National Institutes of Health",
   "amount": 6300518,
   "role": "Co-PI"
+ },
+ {
+  "years": "2014",
+  "title": "Technological Innovation in Health Care and the Long-Term Fiscal Outlook",
+  "sponsor": "National Institute on Aging",
+  "amount": 799374,
+  "role": ""
  },
  {
   "years": "2013–2019",
@@ -119,10 +154,10 @@
   "role": ""
  },
  {
-  "years": "2004–2019",
+  "years": "2004–2024",
   "title": "Roybal Center for Health Policy Simulation",
   "sponsor": "National Institute on Aging",
-  "amount": 3017623,
+  "amount": 4317559,
   "role": ""
  },
  {

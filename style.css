@@ -106,6 +106,9 @@ a.pt:hover { color: var(--accent); }
 .gs { display: block; font: 13px var(--sans); color: var(--muted); margin-top: 2px; }
 .ga { font-weight: 600; font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
 
+.disc { padding: 10px 0; border-bottom: 1px solid var(--line); }
+.disc p { margin: 0; font-size: 15px; color: var(--muted); }
+
 footer { display: flex; justify-content: space-between; color: var(--faint); font-size: 13px; padding: 48px 16px 32px; border-top: 1px solid var(--line); margin-top: 48px; }
 .hidden { display: none !important; }
 

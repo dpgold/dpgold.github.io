@@ -2,13 +2,13 @@
 import html, json, pathlib
 from collections import defaultdict
 
-VERSION = "1.2.0"
+VERSION = "1.3.0"
 UPDATED = "November 2026"
 
 ROOT = pathlib.Path(__file__).parent
 load = lambda n: json.loads((ROOT / "data" / n).read_text(encoding="utf-8"))
 P, PUBS, OPEDS, POSTS = load("profile.json"), load("publications.json"), load("opeds.json"), load("linkedin.json")
-GRANTS = load("grants.json")
+GRANTS, DISC = load("grants.json"), load("disclosures.json")
 e = lambda s: html.escape(str(s), quote=True)
 
 THEMES = {"aging": "Aging & longevity", "drugs": "Drug pricing & insurance design",
@@ -153,10 +153,18 @@ def honors():
     return f'<section id="honors"><h2>Honors</h2><ul class="honors">{h}</ul><h2 class="sub">Service &amp; advisory</h2><ul class="edu">{s}</ul></section>'
 
 
+def disclosures():
+    # Same grouping as DirDash's "Generate Summary" with the All-time window.
+    groups = "".join(
+        f'<div class="disc"><h3>{e(g["label"])}</h3><p>{e(", ".join(g["sponsors"]))}.</p></div>' for g in DISC["groups"])
+    return (f'<section id="disclosures"><h2>Disclosures</h2>'
+            f'<p class="lede">Sources of research support, personal fees, and equity interests, all years.</p>{groups}</section>')
+
+
 nav_items = [("about", "About"), ("experience", "Experience"), ("publications", "Publications"), ("grants", "Grants"), ("opeds", "Op-eds")]
 if POSTS:
     nav_items.append(("linkedin", "LinkedIn"))
-nav_items.append(("honors", "Honors"))
+nav_items += [("honors", "Honors"), ("disclosures", "Disclosures")]
 nav = "".join(f'<a href="#{i}">{t}</a>' for i, t in nav_items)
 
 page = f"""<!doctype html>
@@ -184,6 +192,7 @@ page = f"""<!doctype html>
 {opeds()}
 {linkedin()}
 {honors()}
+{disclosures()}
 </main>
 <footer class="wrap"><span>© {e(P['name'])}</span><span>Updated {UPDATED} · v{VERSION}</span></footer>
 <script src="site.js?v={VERSION}"></script>

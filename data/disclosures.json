@@ -1,0 +1,90 @@
+{
+ "source": "DirDash disclosures, all time",
+ "generated": "2026-11-05",
+ "groups": [
+  {
+   "label": "Research grants",
+   "sponsors": [
+    "5AM Ventures",
+    "Abbott Labs",
+    "Abbvie",
+    "Agency for Healthcare Research and Quality",
+    "Alexion",
+    "Alkermes",
+    "Allergan Alliance Advocacy",
+    "American Dental Association",
+    "American Heart Association",
+    "American Society of Retina Specialists",
+    "Amgen",
+    "Anthem Blue Cross",
+    "Arsenal Biosciences",
+    "Axovant",
+    "Biogen",
+    "Biomarin",
+    "Blue Cross Blue Shield of Arizona",
+    "Blue Cross Blue Shield of Massachusetts",
+    "BrightFocus Foundation",
+    "Bristol Myers Squibb",
+    "Burton G and Anne C Greenblatt Foundation",
+    "CA Community Foundation",
+    "California Endowment",
+    "California Hospital Association",
+    "California Institute for Regenerative Medicine",
+    "California Schools VEBA Foundation",
+    "Cambia Health",
+    "Cedars-Sinai Health System",
+    "Charles Koch Foundation",
+    "Dignity Health",
+    "Edwards Lifesciences",
+    "First5",
+    "Gates Ventures",
+    "GE Health",
+    "Genentech",
+    "Gilead Sciences",
+    "Goldman Sachs",
+    "Gordon & Betty Moore Foundation",
+    "GRAIL",
+    "Hartford Foundation",
+    "Incyte",
+    "Johnson & Johnson",
+    "Kaiser Permanente",
+    "Keck Foundation",
+    "Lilly",
+    "Los Angeles Homeless Services Authority",
+    "Mental Health Services Oversight and Accountability Commission",
+    "National Institute of Child Health and Human Development",
+    "National Institute of Diabetes and Digestive and Kidney Diseases",
+    "National Institute of Neurological Disorders and Stroke",
+    "National Institute on Aging",
+    "Novartis",
+    "Peterson Foundation",
+    "Pfizer",
+    "PhRMA Foundation",
+    "Providence",
+    "Quintiles",
+    "RA Capital",
+    "Research!America",
+    "Robert Wood Johnson Foundation",
+    "Sarepta Therapeutics",
+    "Sentara Healthcare",
+    "Sprint Foundation",
+    "Walgreens Boots Alliance",
+    "West Foundation"
+   ]
+  },
+  {
+   "label": "Personal fees",
+   "sponsors": [
+    "Edwards Lifesciences",
+    "GRAIL"
+   ]
+  },
+  {
+   "label": "Equity",
+   "sponsors": [
+    "EntityRisk",
+    "Precision Medicine Group"
+   ]
+  }
+ ]
+}

@@ -2,7 +2,7 @@
 import html, json, pathlib
 from collections import defaultdict
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 UPDATED = "November 2026"
 
 ROOT = pathlib.Path(__file__).parent
@@ -38,7 +38,7 @@ def hero():
     stats = "".join(f'<div class="stat"><span class="n">{e(s["n"])}</span><span class="l">{e(s["label"])}</span></div>' for s in P["stats"])
     return f"""
 <header class="hero" id="top">
-  <img class="photo" src="{e(P['photo'])}" alt="Portrait of {e(P['name'])}" width="160" height="160">
+  <img class="photo" src="{e(P['photo'])}" alt="Portrait of {e(P['name'])}" width="800" height="670">
   <div class="hero-text">
     <h1>{e(P['name'])}</h1>
     <p class="headline">{e(P['headline'])}</p>

@@ -1,0 +1,95 @@
+{
+ "name": "Dana P. Goldman",
+ "headline": "Founding Director, USC Schaeffer Institute for Public Policy & Government Service · University Professor of Public Policy, Pharmacy, and Economics",
+ "location": "Los Angeles, California",
+ "photo": "img/headshot.jpg",
+ "email": "dana.goldman@usc.edu",
+ "links": [
+  {"label": "USC Schaeffer", "url": "https://schaeffer.usc.edu/people/dana-goldman-ph-d/"},
+  {"label": "Google Scholar", "url": "https://scholar.google.com/citations?user=E3XmWfEAAAAJ&hl=en"},
+  {"label": "ORCID", "url": "https://orcid.org/0000-0001-8498-6396"},
+  {"label": "LinkedIn", "url": "https://www.linkedin.com/in/danapgoldman/"},
+  {"label": "CV (PDF)", "url": "https://schaeffer.usc.edu/wp-content/uploads/2024/10/Goldman_CV-1.pdf"}
+ ],
+ "stats": [
+  {"n": "400+", "label": "articles"},
+  {"n": "27,000+", "label": "citations"},
+  {"n": "$150M+", "label": "research support"},
+  {"n": "3", "label": "national academies"}
+ ],
+ "about": [
+  "Dana Goldman is University Professor of Public Policy, Pharmacy, and Economics and Founding Director of the Schaeffer Institute for Public Policy & Government Service at the University of Southern California. The Institute houses the Schaeffer Center for Health Policy & Economics, one of the most influential health economics programs in the world. He also serves as special advisor to the USC Provost and previously served as Dean of the USC Price School of Public Policy.",
+  "His research spans economics, medicine, and public policy — the economics of aging and longevity, prescription drug pricing and insurance design, and the value of medical innovation. He pioneered a “Netflix model” for paying for cures for the chronically ill, and has been awarded more than $150 million in research support from the National Institutes of Health, private industry, and philanthropy.",
+  "He has advised the Congressional Budget Office, the California Institute for Regenerative Medicine, Covered California, the Fred Hutchinson Cancer Center, GRAIL, Edwards Lifesciences, and the Mark Cuban Cost Plus Drug Company. He is an elected member of the National Academy of Medicine, the National Academy of Social Insurance, and the National Academy of Public Administration, a research associate at the National Bureau of Economic Research, and a nonresident senior fellow at the Brookings Institution.",
+  "A committed mentor, he founded and led USC’s Resource Center for Minority Aging Research; past trainees are on the faculty at Stanford, Harvard, Duke, UCLA, UCSF, USC, Tufts, Penn, and Vanderbilt. He co-founded Precision Health Economics and EntityRisk."
+ ],
+ "experience": [
+  {"org": "University of Southern California", "roles": [
+   {"title": "Founding Director, Schaeffer Institute for Public Policy & Government Service", "dates": "2024 – present"},
+   {"title": "University Professor of Public Policy, Pharmacy, and Economics", "dates": "2024 – present"},
+   {"title": "Dean, Sol Price School of Public Policy · C. Erwin and Ione L. Piper Chair", "dates": "2021 – 2024"},
+   {"title": "Interim Dean, Sol Price School of Public Policy", "dates": "2020 – 2021"},
+   {"title": "Leonard D. Schaeffer Director’s Chair; Distinguished Professor (2016)", "dates": "2013 – present"},
+   {"title": "Co-Director, Leonard D. Schaeffer Center for Health Policy & Economics", "dates": "2009 – present"},
+   {"title": "Norman Topping Chair in Medicine and Public Policy", "dates": "2009 – 2013"}
+  ]},
+  {"org": "Brookings Institution", "roles": [
+   {"title": "Nonresident Senior Fellow, Economic Studies", "dates": "2017 – present"}
+  ]},
+  {"org": "National Bureau of Economic Research", "roles": [
+   {"title": "Research Associate", "dates": "2002 – present"}
+  ]},
+  {"org": "National Institute on Aging", "roles": [
+   {"title": "Director, Roybal Center for Health Policy Simulation", "dates": "2004 – present"}
+  ]},
+  {"org": "RAND Corporation", "roles": [
+   {"title": "Director, Health Economics, Finance, and Organization", "dates": "2006 – 2009"},
+   {"title": "Distinguished Chair in Health Economics", "dates": "2003 – 2009"},
+   {"title": "Professor of Economics, Pardee RAND Graduate School", "dates": "1999 – 2009"},
+   {"title": "Associate Economist → Economist → Senior Economist", "dates": "1993 – 2002"}
+  ]},
+  {"org": "UCLA", "roles": [
+   {"title": "Adjunct faculty — Economics, Health Services, Radiology, Health Policy & Management", "dates": "1994 – 2011"}
+  ]}
+ ],
+ "education": [
+  {"school": "Stanford University", "degree": "Ph.D., Economics", "year": "1994"},
+  {"school": "Cornell University", "degree": "B.A., Economics, summa cum laude · Phi Beta Kappa", "year": "1988"}
+ ],
+ "honors": [
+  ["2024", "University Professor, University of Southern California"],
+  ["2022", "Member, National Academy of Public Administration"],
+  ["2018", "Member, National Academy of Social Insurance"],
+  ["2017", "USC Associates Award for Creativity in Research"],
+  ["2016", "Distinguished Professor, University of Southern California"],
+  ["2015", "Robert Biller Outstanding Faculty Award, USC Price School"],
+  ["2012", "USC Mellon Mentoring Award"],
+  ["2011", "MetLife Foundation Silver Scholar Award"],
+  ["2009", "Member, National Academy of Medicine"],
+  ["2009", "Eugene Garfield Economic Impact of Medical and Health Research Award"],
+  ["2006", "Huddleson Outstanding Teacher Award, Pardee RAND Graduate School"],
+  ["2002", "Annual Research Award, National Institute for Health Care Management"],
+  ["2002", "Alice S. Hersh New Investigator Award, AcademyHealth"],
+  ["2000", "Article of the Year, Association for Health Services Research"]
+ ],
+ "service": [
+  ["Founding Editor", "Forum for Health Economics & Policy", "2005 – present"],
+  ["Editorial Board", "Health Affairs", "2003 – present"],
+  ["Editorial Board", "American Journal of Managed Care", "2003 – present"],
+  ["Panel of Health Advisers", "Congressional Budget Office", "2008 – 2017"],
+  ["Chair, Panel to Improve Medicare Cost Projections", "National Academy of Sciences", "2009 – 2010"],
+  ["Panel on the Fiscal Future of the United States", "National Academy of Sciences", "2008 – 2010"],
+  ["Committee on Representation of Women and Underrepresented Minorities in Clinical Trials", "National Academies", "2021 – 2022"],
+  ["Research Network on an Aging Society", "MacArthur Foundation", "2007 – 2016"],
+  ["Chair, HICOR Advisory Board", "Fred Hutchinson Cancer Center", "2013 – 2020"],
+  ["Scientific Advisory Board", "GRAIL", "2020 – 2024"],
+  ["Board of Directors", "ISPOR", "2014 – 2017"],
+  ["Board of Directors", "American Society of Health Economists", "2008 – 2012"],
+  ["Global Agenda Councils on Genetics; Precision Health", "World Economic Forum", "2011 – 2014"]
+ ],
+ "books": [
+  {"authors": "Berndt ER, Goldman DP, Rowe JW (eds.)", "title": "Economic Dimensions of Personalized and Precision Medicine", "pub": "University of Chicago Press (NBER)", "year": 2019, "url": ""},
+  {"authors": "Goldman DP, Lakdawalla DN", "title": "Intellectual Property, Information Technology, Biomedical Research, and Marketing of Patented Products", "pub": "Handbook of Health Economics, Vol. 2 (Elsevier), pp. 825–868", "year": 2012, "url": ""},
+  {"authors": "Goldman DP, Joyce GF", "title": "Consumer Demand and Health Effects of Cost Sharing", "pub": "Oxford Handbook of the Economics of the Biopharmaceutical Industry, pp. 365–393", "year": 2012, "url": ""}
+ ]
+}

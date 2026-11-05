@@ -1,0 +1,758 @@
+[
+ {
+  "authors": "Goldman, D",
+  "title": "What I got wrong about the Affordable Care Act—and how to fix it",
+  "outlet": "STAT",
+  "date": "October 22, 2026",
+  "year": 2026,
+  "url": "https://www.statnews.com/2026/10/22/aca-failure-contain-healthcare-costs-economist-regret/",
+  "id": 0
+ },
+ {
+  "authors": "Goldman D",
+  "title": "I’m using not-FDA-approved software to manage my diabetes. I’ve never felt better",
+  "outlet": "STAT",
+  "date": "August 4, 2026",
+  "year": 2026,
+  "url": "https://www.statnews.com/2026/08/04/diabetes-open-source-software-fda-approval/",
+  "id": 1
+ },
+ {
+  "authors": "Goldman D, Trish E",
+  "title": "Scoring Health Reform—Congress Needs a Wider Aperture and Longer Exposure",
+  "outlet": "JAMA Health Forum",
+  "date": "June 26, 2026",
+  "year": 2026,
+  "url": "https://media.jamanetwork.com/10.1001/jamahealthforum.2026.1542",
+  "id": 2
+ },
+ {
+  "authors": "Goldman D, Malana A",
+  "title": "When it comes to retirement, a year can change everything",
+  "outlet": "The Hill",
+  "date": "June 13, 2026",
+  "year": 2026,
+  "url": "",
+  "id": 3
+ },
+ {
+  "authors": "Goldman D",
+  "title": "Why Widespread Testing for Alzheimer’s Is Essential",
+  "outlet": "RealClearHealth",
+  "date": "April 6, 2026",
+  "year": 2026,
+  "url": "https://www.realclearhealth.com/2026/04/03/why_widespread_testing_for_alzheimers_is_essential_1174589.html",
+  "id": 4
+ },
+ {
+  "authors": "Goldman, D, Lakdawalla D",
+  "title": "Ensuring most-favored nation drug pricing doesn’t sicken us",
+  "outlet": "STAT",
+  "date": "May 15, 2025",
+  "year": 2025,
+  "url": "https://schaeffer.usc.edu/research/ensuring-most-favored-nation-drug-pricing-doesnt-sicken-us/",
+  "id": 5
+ },
+ {
+  "authors": "Goldman D, Lakdawalla D",
+  "title": "’Most-Favored Nation’ Drug Pricing has Three Significant Problems",
+  "outlet": "STAT",
+  "date": "April 14, 2025",
+  "year": 2025,
+  "url": "https://www.statnews.com/2025/04/14/most-favored-nation-drug-pricing-policy-trump-mfn/",
+  "id": 6
+ },
+ {
+  "authors": "Goldman D, Ward A",
+  "title": "A Missed Chance to make America Healthier and Richer",
+  "outlet": "Washington Post",
+  "date": "April 7, 2025",
+  "year": 2025,
+  "url": "https://www.washingtonpost.com/opinions/2025/04/07/ozempic-medicare-medicaid-obesity-drugs/",
+  "id": 7
+ },
+ {
+  "authors": "Goldman D, Ward A",
+  "title": "Medicare coverage of weight loss drugs could save the U.S. billions of dollars",
+  "outlet": "STAT",
+  "date": "April 3, 2024",
+  "year": 2024,
+  "url": "https://schaeffer.usc.edu/research/medicare-coverage-of-weight-loss-drugs-could-save-billions-of-dollars/",
+  "id": 8
+ },
+ {
+  "authors": "Goldman D, Simborg D, Thangaraj I",
+  "title": "Biden’s hepatitis C initiative needs help from the private market",
+  "outlet": "The Hill",
+  "date": "December 9, 2023",
+  "year": 2023,
+  "url": "https://schaeffer.usc.edu/research/bidens-hepatitis-c-initiative-needs-help-from-the-private-market/",
+  "id": 9
+ },
+ {
+  "authors": "Goldman D, Kolchinsky P",
+  "title": "Want Lower Obesity Drug Costs? Medicare Holds the Key",
+  "outlet": "MedPage Today",
+  "date": "November 21, 2023",
+  "year": 2023,
+  "url": "https://healthpolicy.usc.edu/article/want-lower-obesity-drug-costs-medicare-key",
+  "id": 10
+ },
+ {
+  "authors": "Goldman D, Lakdawalla D",
+  "title": "Four ways to make drug price negotiations work for everyone",
+  "outlet": "The Hill",
+  "date": "May 26, 2023",
+  "year": 2023,
+  "url": "https://schaeffer.usc.edu/research/four-ways-to-make-drug-price-negotiations-work-for-everyone/",
+  "id": 11
+ },
+ {
+  "authors": "Goldman D, Van Nuys K",
+  "title": "Eli Lilly is cutting insulin prices and capping copays at $35 - 5 questions answered",
+  "outlet": "The Conversation",
+  "date": "March 3, 2023",
+  "year": 2023,
+  "url": "https://theconversation.com/eli-lilly-is-cutting-insulin-prices-and-capping-copays-at-35-5-questions-answered-200988",
+  "id": 12
+ },
+ {
+  "authors": "Goldman D, Enthoven A",
+  "title": "California needs to invest in solutions for the water crisis, not a bullet train",
+  "outlet": "CalMatters",
+  "date": "February 10, 2023",
+  "year": 2023,
+  "url": "https://calmatters.org/commentary/2023/02/bullet-train-water-high-speed-rail/",
+  "id": 13
+ },
+ {
+  "authors": "Goldman D, Perez E, Rio C",
+  "title": "Lack of diversity in clinical trials costs billions of dollars. Incentives can spur innovation",
+  "outlet": "STAT",
+  "date": "August 3, 2022",
+  "year": 2022,
+  "url": "https://www.statnews.com/2022/08/03/lack-of-diversity-in-clinical-trials-costs-billions-of-dollars-incentives-can-spur-innovation/",
+  "id": 14
+ },
+ {
+  "authors": "Goldman D, Trish E",
+  "title": "Drugmakers Aren't Driving Inflation; And price controls would hinder medical innovation",
+  "outlet": "Wall Street Journal",
+  "date": "July 7, 2022",
+  "year": 2022,
+  "url": "https://schaeffer.usc.edu/research/drugmakers-arent-driving-inflation/",
+  "id": 15
+ },
+ {
+  "authors": "Lakdawalla D, Goldman D",
+  "title": "California should lead on health technology assessment",
+  "outlet": "CalMatters",
+  "date": "January 27, 2022",
+  "year": 2022,
+  "url": "https://calmatters.org/commentary/2022/01/california-should-lead-on-health-technology-assessment/",
+  "id": 16
+ },
+ {
+  "authors": "Goldman D, Philipson T",
+  "title": "Biosimilars competition helps patients more than generic competition",
+  "outlet": "STAT",
+  "date": "October 8, 2021",
+  "year": 2021,
+  "url": "https://www.statnews.com/2021/10/08/biosimilars-competition-helps-patients-more-than-generic-competition/",
+  "id": 17
+ },
+ {
+  "authors": "Goldman D, Rowe J, Tucker-Seeley R",
+  "title": "A medical moonshot would help fix inequality in American health care",
+  "outlet": "The Conversation",
+  "date": "July 1, 2021",
+  "year": 2021,
+  "url": "https://theconversation.com/a-medical-moonshot-would-help-fix-inequality-in-american-health-care-162210",
+  "id": 18
+ },
+ {
+  "authors": "Goldman D, Lakdawalla D",
+  "title": "FDA’s approval of aducanumab paves the way for ‘more momentous’ Alzheimer’s breakthroughs",
+  "outlet": "STAT",
+  "date": "June 7, 2021",
+  "year": 2021,
+  "url": "https://www.statnews.com/2021/06/07/fda-aducanumab-approval-paves-way-momentous-alzheimers-breakthroughs/",
+  "id": 19
+ },
+ {
+  "authors": "Goldman D, Taylor C",
+  "title": "California Leads in Public Investment in Biomedical Innovation and It Is Beginning toShow Returns",
+  "outlet": "The Evidence Base",
+  "date": "July 1, 2020",
+  "year": 2020,
+  "url": "https://healthpolicy.usc.edu/evidence-base/california-leads-in-public-investment-in-biomedical-innovation-and-it-is-beginning-to-show-returns/",
+  "id": 20
+ },
+ {
+  "authors": "Goldman D",
+  "title": "Early Detection: A New Front in the War on Cancer",
+  "outlet": "Scientific American",
+  "date": "May 6, 2020",
+  "year": 2020,
+  "url": "https://www.scientificamerican.com/blog/observations/early-detection-a-new-front-in-the-war-on-cancer/",
+  "id": 21
+ },
+ {
+  "authors": "Worsham C, Jena A, Goldman D",
+  "title": "Where is Big Data when we need it most?",
+  "outlet": "The Hill",
+  "date": "April 23, 2020",
+  "year": 2020,
+  "url": "https://thehill.com/opinion/technology/494124-where-is-big-data-when-we-need-it-themost/",
+  "id": 22
+ },
+ {
+  "authors": "Edlin A, Goldman D",
+  "title": "How California’s smog alert system could be adapted to fight the coronavirus",
+  "outlet": "Los Angeles Times",
+  "date": "April 19, 2020",
+  "year": 2020,
+  "url": "",
+  "id": 23
+ },
+ {
+  "authors": "Goldman D",
+  "title": "Obesity, second to smoking as the most preventable cause of US deaths, needs new approaches",
+  "outlet": "The Conversation",
+  "date": "January 27, 2020",
+  "year": 2020,
+  "url": "https://theconversation.com/obesity-second-to-smoking-as-the-most-preventable-cause-of-us-deaths-needs-new-approaches-129317",
+  "id": 24
+ },
+ {
+  "authors": "Goldman D",
+  "title": "CBO estimate on Pelosi drug bill misses its long-term impact on health",
+  "outlet": "STAT",
+  "date": "October 16, 2019",
+  "year": 2019,
+  "url": "https://www.statnews.com/2019/10/16/cbo-estimate-pelosi-drug-bill-misses-long-term-impact/",
+  "id": 25
+ },
+ {
+  "authors": "Chen A, Goldman D",
+  "title": "Accounting for hope: using ‘mean survival gain’ to price new cancer drugs",
+  "outlet": "STAT",
+  "date": "October 14, 2019",
+  "year": 2019,
+  "url": "https://www.statnews.com/2019/10/14/mean-survival-gain-pricing-cancer-drugs/",
+  "id": 26
+ },
+ {
+  "authors": "Goldman D",
+  "title": "Why your employer-sponsored insurance may ultimately not be good for you",
+  "outlet": "The Conversation",
+  "date": "September 9, 2019",
+  "year": 2019,
+  "url": "https://theconversation.com/why-your-employer-sponsored-insurance-may-ultimately-not-be-good-for-you-121859",
+  "id": 27
+ },
+ {
+  "authors": "Goldman D",
+  "title": "Here's how we can control drug costs while spurring innovation",
+  "outlet": "The Hill",
+  "date": "June 14, 2019",
+  "year": 2019,
+  "url": "https://schaeffer.usc.edu/research/heres-how-we-can-control-drug-costs-while-spurring-innovation/",
+  "id": 28
+ },
+ {
+  "authors": "Goldman D, Lakdawalla D",
+  "title": "Health Care’s Killer App: Life Insurance",
+  "outlet": "Wall Street Journal",
+  "date": "March 20, 2019",
+  "year": 2019,
+  "url": "https://schaeffer.usc.edu/research/health-cares-killer-app-life-insurance/",
+  "id": 29
+ },
+ {
+  "authors": "Trish E, Goldman D",
+  "title": "Ending drug rebates will increase Medicare Part D premiums. Most seniors will be insulated from it",
+  "outlet": "STAT",
+  "date": "February 21, 2019",
+  "year": 2019,
+  "url": "https://www.statnews.com/2019/02/21/ending-drug-rebates-part-d-premiums/",
+  "id": 30
+ },
+ {
+  "authors": "Chou J, Huber C,  Goldman D",
+  "title": "Double Jeopardy In Health— It’s Time For Employers To Care",
+  "outlet": "Health Affairs Blog",
+  "date": "December 10, 2018",
+  "year": 2018,
+  "url": "https://www.healthaffairs.org/do/10.1377/forefront.20181209.883990/",
+  "id": 31
+ },
+ {
+  "authors": "Goldman D, Green R",
+  "title": "California needs public infrastructure, but not a bullet train",
+  "outlet": "Sacramento Bee",
+  "date": "October 11, 2018",
+  "year": 2018,
+  "url": "",
+  "id": 32
+ },
+ {
+  "authors": "Goldman D, Jena A",
+  "title": "Opinion: Surprise! Trump might actually lower drug prices",
+  "outlet": "Washington Post",
+  "date": "August 28, 2018",
+  "year": 2018,
+  "url": "",
+  "id": 33
+ },
+ {
+  "authors": "Goldman D",
+  "title": "When we find a cure, price it like Netflix to ensure access",
+  "outlet": "The Hill",
+  "date": "August 13, 2018",
+  "year": 2018,
+  "url": "https://thehill.com/blogs/congress-blog/healthcare/401504-when-we-find-a-cure-price-it-like-netflix-to-ensure-access/",
+  "id": 34
+ },
+ {
+  "authors": "Mattke S, Lakdawalla D, Goldman D",
+  "title": "The Long Road To Value-Based Payment: The Case Of Transcatheter Aortic Valve Replacement",
+  "outlet": "Health Affairs Blog",
+  "date": "July 26, 2018",
+  "year": 2018,
+  "url": "https://healthaffairs.org/do/10.1377/hblog20180725.321773/full",
+  "id": 35
+ },
+ {
+  "authors": "Rowe J, Goldman D, Olshansky J",
+  "title": "Effects of historically low birth rate will reverberate for years to come",
+  "outlet": "The Hill",
+  "date": "May 21, 2018",
+  "year": 2018,
+  "url": "https://thehill.com/opinion/finance/388618-effects-of-low-birth-rates-will-reverberate-for-years-to-come/",
+  "id": 36
+ },
+ {
+  "authors": "Goldman D,  Trish E",
+  "title": "Walmart and CVS have 15,000 combined stores. Why are both trying to buy health insurance companies?",
+  "outlet": "Los Angeles Times",
+  "date": "April 10, 2018",
+  "year": 2018,
+  "url": "",
+  "id": 37
+ },
+ {
+  "authors": "Jena A, Goldman D",
+  "title": "Here's how we can increase the supply of organs and keep people off of the waiting list",
+  "outlet": "The Hill",
+  "date": "February 12, 2018",
+  "year": 2018,
+  "url": "https://thehill.com/opinion/healthcare/373409-heres-how-we-can-increase-the-supply-of-organs-and-keep-people-off-of-the/",
+  "id": 38
+ },
+ {
+  "authors": "Goldman D and Lakdawalla D",
+  "title": "Opinion: This is what’s at stake if U.S. drug prices fall — and Europeans don’t pay more",
+  "outlet": "MarketWatch",
+  "date": "February 1, 2018",
+  "year": 2018,
+  "url": "https://schaeffer.usc.edu/research/this-is-whats-at-stake-if-u-s-drug-prices-fall-and-europeans-dont-pay-more/",
+  "id": 39
+ },
+ {
+  "authors": "Sood N, Goldman D, Van Nuys K",
+  "title": "Follow the money to understand how drug profits flow",
+  "outlet": "STAT",
+  "date": "December 15, 2017",
+  "year": 2017,
+  "url": "https://www.statnews.com/2017/12/15/prescription-drug-profits-pbm/",
+  "id": 40
+ },
+ {
+  "authors": "Jena A, Barnett M, Goldman D",
+  "title": "How Health Care Providers Can Help End the Overprescription of Opioids",
+  "outlet": "Harvard Business Review",
+  "date": "October 24, 2017",
+  "year": 2017,
+  "url": "https://hbr.org/2017/10/how-health-care-providers-can-help-end-the-overprescription-of-opioids",
+  "id": 41
+ },
+ {
+  "authors": "Goldman D",
+  "title": "Why Bernie Sanders’s plan for universal health care is only half right",
+  "outlet": "STAT",
+  "date": "September 12, 2017",
+  "year": 2017,
+  "url": "https://www.statnews.com/2017/09/12/bernie-sanders-plan-universal-health-care-half-right/",
+  "id": 42
+ },
+ {
+  "authors": "Agus D, Goldman D",
+  "title": "Innovative Drugs Deserve Innovative Pricing",
+  "outlet": "Fortune",
+  "date": "August 31, 2017",
+  "year": 2017,
+  "url": "https://fortune.com/2017/08/31/novartis-gene-therapy-kymriah-cancer-treatment/",
+  "id": 43
+ },
+ {
+  "authors": "Howard P, Goldman D",
+  "title": "This is how Congress could craft a bipartisan health-care bill",
+  "outlet": "MarketWatch",
+  "date": "July 30, 2017",
+  "year": 2017,
+  "url": "",
+  "id": 44
+ },
+ {
+  "authors": "Goldman D, Lakdawalla D",
+  "title": "Take Me Out to the Pill Game",
+  "outlet": "Wall Street Journal",
+  "date": "June 19, 2017",
+  "year": 2017,
+  "url": "",
+  "id": 45
+ },
+ {
+  "authors": "Sood N, Shih T, Van Nuys K, Goldman D",
+  "title": "Follow The Money: The Flow Of Funds In The Pharmaceutical Distribution System",
+  "outlet": "Health Affairs Blog",
+  "date": "June 13, 2017",
+  "year": 2017,
+  "url": "https://www.healthaffairs.org/do/10.1377/hblog20170613.060557/full/",
+  "id": 46
+ },
+ {
+  "authors": "Goldman D, Jena A",
+  "title": "Value-based drug pricing makes sense, but is difficult to pull off",
+  "outlet": "STAT",
+  "date": "June 8, 2017",
+  "year": 2017,
+  "url": "https://www.statnews.com/2017/06/08/value-based-drug-pricing/",
+  "id": 47
+ },
+ {
+  "authors": "Hagopian K, Goldman D",
+  "title": "How To Insure Everyone At A Reasonable Cost",
+  "outlet": "Forbes",
+  "date": "March 3, 2017",
+  "year": 2017,
+  "url": "https://www.forbes.com/sites/realspin/2017/03/03/how-to-insure-everyone-at-a-reasonable-cost/",
+  "id": 48
+ },
+ {
+  "authors": "Schaeffer L, Goldman D",
+  "title": "California provides model to replace the Affordable Care Act",
+  "outlet": "Sacramento Bee",
+  "date": "February 14, 2017",
+  "year": 2017,
+  "url": "",
+  "id": 49
+ },
+ {
+  "authors": "Goldman D, Lakdawalla D",
+  "title": "Why academics consulting with industry on health care may be an idea whose time has come",
+  "outlet": "The Conversation",
+  "date": "December 21, 2016",
+  "year": 2016,
+  "url": "https://theconversation.com/why-academics-consulting-with-industry-on-health-care-may-be-an-idea-whose-time-has-come-69968",
+  "id": 50
+ },
+ {
+  "authors": "Goldman D, Lakdawalla D",
+  "title": "Election Verdict: Pharma Needs A New Prescription",
+  "outlet": "STAT",
+  "date": "November 10, 2016",
+  "year": 2016,
+  "url": "https://www.statnews.com/2016/11/10/pharma-election-drug-prices-patents/",
+  "id": 51
+ },
+ {
+  "authors": "Goldman D, Nussbaum S, Linthicum M",
+  "title": "Rapid Biomedical Innovation Calls For Similar Innovation In Pricing And Value Measurement",
+  "outlet": "Health Affairs Blog",
+  "date": "September 15, 2016",
+  "year": 2016,
+  "url": "https://www.healthaffairs.org/do/10.1377/hblog20160915.056571/full/",
+  "id": 52
+ },
+ {
+  "authors": "Goldman, D",
+  "title": "To Prevent Another EpiPen Controversy, the Government Should Step In",
+  "outlet": "STAT",
+  "date": "August 26, 2016",
+  "year": 2016,
+  "url": "https://www.statnews.com/2016/08/26/epipen-mylan-vaccines-federal-government/",
+  "id": 53
+ },
+ {
+  "authors": "Goldman D",
+  "title": "Hospital Care for Those Who Can Afford It Helps Care for Those Who Can’t",
+  "outlet": "New York Times",
+  "date": "August 22, 2016",
+  "year": 2016,
+  "url": "",
+  "id": 54
+ },
+ {
+  "authors": "Goldman D",
+  "title": "Commentary: To ensure access to generic drugs, take a lesson from vaccines",
+  "outlet": "Modern Healthcare",
+  "date": "June 29, 2016",
+  "year": 2016,
+  "url": "",
+  "id": 55
+ },
+ {
+  "authors": "Chung A, MacEwan J, Goldman D",
+  "title": "Does A ‘One-Size-Fits-All’ Formulary Policy Make Sense?",
+  "outlet": "Health Affairs Blog",
+  "date": "June 2, 2016",
+  "year": 2016,
+  "url": "https://www.healthaffairs.org/content/forefront/does-one-size-fits-all-formulary-policy-make-sense",
+  "id": 56
+ },
+ {
+  "authors": "Goldman, D",
+  "title": "Commentary: Drop Medicaid ‘best price’ drug rules in favor of value-based strategies",
+  "outlet": "Modern Healthcare",
+  "date": "November 18, 2015",
+  "year": 2015,
+  "url": "https://www.modernhealthcare.com/article/20151118/NEWS/151119888/drop-medicaid-best-price-drug-rules-in-favor-of-value-based-strategies",
+  "id": 57
+ },
+ {
+  "authors": "Goldman D, Lakdawalla D",
+  "title": "Moving Beyond Price-Per-Dose In The Pharmaceutical Industry",
+  "outlet": "Health Affairs Blog",
+  "date": "September 30, 2015",
+  "year": 2015,
+  "url": "https://www.healthaffairs.org/content/forefront/moving-beyond-price-per-dose-pharmaceutical-industry",
+  "id": 58
+ },
+ {
+  "authors": "Chandra A, Goldman D",
+  "title": "Understanding Health Care’s Short-Termism Problem",
+  "outlet": "Harvard Business Review",
+  "date": "September 28, 2015",
+  "year": 2015,
+  "url": "https://hbr.org/2015/09/understanding-health-cares-short-termism-problem",
+  "id": 59
+ },
+ {
+  "authors": "Goldman D, Lakdawalla D, Newcomer L",
+  "title": "It’s Time For Value-Based Payment In Oncology",
+  "outlet": "Health Affairs Blog",
+  "date": "April 28, 2015",
+  "year": 2015,
+  "url": "https://www.healthaffairs.org/do/10.1377/hblog20150428.047344/full/",
+  "id": 60
+ },
+ {
+  "authors": "Goldman D et al",
+  "title": "Mortality Versus Survival In International Comparisons Of Cancer Care",
+  "outlet": "Health Affairs Blog",
+  "date": "March 20, 2015",
+  "year": 2015,
+  "url": "https://www.healthaffairs.org/do/10.1377/forefront.20150320.045606/",
+  "id": 61
+ },
+ {
+  "authors": "Altman D, Goldman D",
+  "title": "Medicare Spending Cuts and Hospital Productivity Gains",
+  "outlet": "Wall Street Journal",
+  "date": "Feb 25, 2015",
+  "year": 2015,
+  "url": "",
+  "id": 62
+ },
+ {
+  "authors": "Goldman D, Chandra A, Lakdawalla D",
+  "title": "It’s Easier to Measure the Cost of Health Care than Its Value",
+  "outlet": "Harvard Business Review",
+  "date": "November 18, 2014",
+  "year": 2014,
+  "url": "https://hbr.org/2014/11/its-easier-to-measure-the-cost-of-health-care-than-its-value",
+  "id": 63
+ },
+ {
+  "authors": "Hagopian K and Goldman D",
+  "title": "How To Achieve Universal Health Coverage at Half the Cost",
+  "outlet": "Forbes",
+  "date": "January 10, 2014",
+  "year": 2014,
+  "url": "https://www.forbes.com/sites/realspin/2014/01/10/how-to-achieve-universal-health-coverage-at-half-the-cost/",
+  "id": 64
+ },
+ {
+  "authors": "Goldman D, Leive A",
+  "title": "Why ‘Medicare-For-All’ Is Not The Answer",
+  "outlet": "Health Affairs Blog",
+  "date": "May 14, 2013",
+  "year": 2013,
+  "url": "http://www.healthaffairs.org/blog/2013/05/14/why-medicare-for-all-is-not-the-answer/",
+  "id": 65
+ },
+ {
+  "authors": "Goldman D",
+  "title": "What Health Care Can Learn from Netflix",
+  "outlet": "LinkedIn",
+  "date": "May 27, 2013",
+  "year": 2013,
+  "url": "https://www.linkedin.com/pulse/20130527215225-22738440-what-health-care-can-learn-from-netflix/",
+  "id": 66
+ },
+ {
+  "authors": "Goldman D, Chernew M, Jena AB",
+  "title": "Health Insurance Exchanges May Be Too Small to Succeed",
+  "outlet": "New York Times",
+  "date": "November 23, 2012",
+  "year": 2012,
+  "url": "",
+  "id": 67
+ },
+ {
+  "authors": "Goldman D, Schwartz S, Lakdawalla D, Philipson T, Jena A",
+  "title": "Harnessing The Promise Of Comparative Effectiveness Research",
+  "outlet": "Health Affairs Blog",
+  "date": "September 12, 2012",
+  "year": 2012,
+  "url": "https://www.healthaffairs.org/do/10.1377/forefront.20120912.022686/",
+  "id": 68
+ },
+ {
+  "authors": "Eber M, Goldman D, Lakdawalla D, Philipson T",
+  "title": "When Epidemiology Goes Astray: Valuing Cancer Care in the United States and Europe",
+  "outlet": "Health Affairs Blog",
+  "date": "May 14, 2012",
+  "year": 2012,
+  "url": "",
+  "id": 69
+ },
+ {
+  "authors": "Schaeffer L, Goldman D",
+  "title": "Benefit Design Should Reflect Value",
+  "outlet": "Institute of Medicine Commentary",
+  "date": "January 27, 2012",
+  "year": 2012,
+  "url": "",
+  "id": 70
+ },
+ {
+  "authors": "Chernew M, Lakdawalla D, Goldman D",
+  "title": "Saving Medicare Dollars: Moving From The SGR To Bundled Payments",
+  "outlet": "Health Affairs Blog",
+  "date": "February 24, 2012",
+  "year": 2012,
+  "url": "https://www.healthaffairs.org/do/10.1377/forefront.20120224.017232/",
+  "id": 71
+ },
+ {
+  "authors": "Goldman D and Shah V",
+  "title": "Congress and Medicare",
+  "outlet": "Huffington Post",
+  "date": "May 31, 2011",
+  "year": 2011,
+  "url": "",
+  "id": 72
+ },
+ {
+  "authors": "Goldman D and Edlin A",
+  "title": "Can Immigrants Solve Our Health Care Problems?",
+  "outlet": "New York Times",
+  "date": "January 19, 2010",
+  "year": 2010,
+  "url": "",
+  "id": 73
+ },
+ {
+  "authors": "Goldman D",
+  "title": "I am a Death Panelist.  I am not the Problem",
+  "outlet": "New York Times",
+  "date": "December 9, 2009",
+  "year": 2009,
+  "url": "",
+  "id": 74
+ },
+ {
+  "authors": "Goldman D",
+  "title": "Fix the Healthcare System (and Fight the Recession, Too)",
+  "outlet": "CNN.com",
+  "date": "August 21, 2009",
+  "year": 2009,
+  "url": "",
+  "id": 75
+ },
+ {
+  "authors": "Goldman D",
+  "title": "Improve Health, Not the Health Care System",
+  "outlet": "New York Times",
+  "date": "June 23, 2009",
+  "year": 2009,
+  "url": "",
+  "id": 76
+ },
+ {
+  "authors": "Goldman D",
+  "title": "Limiting Treatment to Those Who Need It",
+  "outlet": "KQED Healthy Ideas",
+  "date": "April 29, 2009",
+  "year": 2009,
+  "url": "",
+  "id": 77
+ },
+ {
+  "authors": "Goldman D",
+  "title": "Half Right",
+  "outlet": "Cato Unbound",
+  "date": "September 14, 2007",
+  "year": 2007,
+  "url": "https://www.cato-unbound.org/2007/09/14/dana-goldman/half-right/",
+  "id": 78
+ },
+ {
+  "authors": "Goldman D, Malkin J",
+  "title": "The HSA Mirage",
+  "outlet": "United Press International",
+  "date": "February 20, 2006",
+  "year": 2006,
+  "url": "",
+  "id": 79
+ },
+ {
+  "authors": "Goldman D",
+  "title": "Pressure from rising health-care costs: How can consumers get relief?",
+  "outlet": "Riverside Press Enterprise",
+  "date": "October 24, 2005",
+  "year": 2005,
+  "url": "",
+  "id": 80
+ },
+ {
+  "authors": "Goldman D and Schuster M",
+  "title": "Outside View: Health Costs of Katrina",
+  "outlet": "United Press International",
+  "date": "October 10, 2005",
+  "year": 2005,
+  "url": "",
+  "id": 81
+ },
+ {
+  "authors": "Goldman D, Joyce G",
+  "title": "Take Two Aspirin and Call Congress",
+  "outlet": "Los Angeles Times",
+  "date": "December 11, 2002",
+  "year": 2002,
+  "url": "",
+  "id": 82
+ },
+ {
+  "authors": "Goldman D, Joyce G",
+  "title": "A Third—and Better—Way for Prescription Drug Coverage",
+  "outlet": "Los Angeles Times",
+  "date": "November 5, 2000",
+  "year": 2000,
+  "url": "",
+  "id": 83
+ }
+]

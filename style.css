@@ -94,6 +94,10 @@ a.pt:hover { color: var(--accent); }
 .badge.cited { background: var(--accent-soft); color: var(--accent); }
 .badge.key { background: var(--gold-soft); color: var(--gold); }
 
+.authorpages { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; color: var(--muted); font-size: 14px; margin: 0 0 16px; }
+.org h3 a { color: var(--text); }
+.org h3 a:hover, .role a:hover { color: var(--accent); }
+.role a { color: var(--text); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
 .year { display: grid; grid-template-columns: 64px 1fr; gap: 16px; border-top: 1px solid var(--line); padding: 12px 0; }
 .year h3 { font: 600 18px var(--serif); color: var(--muted); margin: 0; text-align: right; }
 .opeds { list-style: none; padding: 0; margin: 0; }

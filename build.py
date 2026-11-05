@@ -2,7 +2,7 @@
 import datetime, html, json, pathlib, re
 from collections import defaultdict
 
-VERSION = "1.7.1"
+VERSION = "1.8.0"
 UPDATED = "November 2026"
 
 ROOT = pathlib.Path(__file__).parent
@@ -65,8 +65,8 @@ def about():
 def experience():
     out = ['<section id="experience"><h2>Experience</h2><ol class="timeline">']
     for x in P["experience"]:
-        roles = "".join(f'<li><span class="role">{e(r["title"])}</span><span class="dates">{e(r["dates"])}</span></li>' for r in x["roles"])
-        out.append(f'<li class="org"><h3>{e(x["org"])}</h3><ul class="roles">{roles}</ul></li>')
+        roles = "".join(f'<li><span class="role">{link(r.get("url"), r["title"])}</span><span class="dates">{e(r["dates"])}</span></li>' for r in x["roles"])
+        out.append(f'<li class="org"><h3>{link(x.get("url"), x["org"])}</h3><ul class="roles">{roles}</ul></li>')
     out.append("</ol><h2 class='sub'>Education</h2><ul class='edu'>")
     for d in P["education"]:
         out.append(f'<li><span><strong>{e(d["school"])}</strong> — {e(d["degree"])}</span><span class="dates">{e(d["year"])}</span></li>')
@@ -143,6 +143,7 @@ def opeds():
 <em>Washington Post</em>, <em>Los Angeles Times</em>, <em>STAT</em>, and <em>Health Affairs</em>.</p>
 <div class="controls"><label class="sort">Outlet <select id="outlet">{opts}</select></label>
 <input id="oq" type="search" placeholder="Search titles" aria-label="Search op-ed titles"></div>
+<p class="authorpages">Author pages: {" ".join(f'<a class="pill" href="{e(a["url"])}" target="_blank" rel="noopener">{e(a["label"])}</a>' for a in P.get("author_pages", []))}</p>
 {''.join(blocks)}</section>"""
 
 

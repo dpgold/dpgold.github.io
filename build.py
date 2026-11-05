@@ -2,7 +2,7 @@
 import datetime, html, json, pathlib, re
 from collections import defaultdict
 
-VERSION = "1.6.1"
+VERSION = "1.6.2"
 UPDATED = "November 2026"
 
 ROOT = pathlib.Path(__file__).parent

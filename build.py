@@ -2,7 +2,7 @@
 import html, json, pathlib
 from collections import defaultdict
 
-VERSION = "1.0.1"
+VERSION = "1.1.0"
 UPDATED = "November 2026"
 
 ROOT = pathlib.Path(__file__).parent
@@ -42,7 +42,7 @@ def hero():
   <div class="hero-text">
     <h1>{e(P['name'])}</h1>
     <p class="headline">{e(P['headline'])}</p>
-    <p class="loc">{e(P['location'])} · <a href="mailto:{e(P['email'])}">{e(P['email'])}</a></p>
+    <p class="loc">{e(P['location'])}</p>
     <nav class="pills" aria-label="Profiles">{links}</nav>
   </div>
 </header>
@@ -50,7 +50,7 @@ def hero():
 
 
 def about():
-    return '<section id="about"><h2>About</h2>' + "".join(f"<p>{e(p)}</p>" for p in P["about"]) + "</section>"
+    return '<section id="about"><h2>About</h2>' + "".join(f"<p>{p}</p>" for p in P["about"]) + "</section>"
 
 
 def experience():
@@ -162,7 +162,7 @@ page = f"""<!doctype html>
 <link rel="stylesheet" href="style.css?v={VERSION}">
 </head>
 <body>
-<nav class="top"><div class="wrap"><a class="brand" href="#top">{e(P['name'])}</a><div class="links">{nav}</div></div></nav>
+<nav class="top"><div class="wrap"><div class="links">{nav}</div></div></nav>
 <main class="wrap">
 {hero()}
 {about()}

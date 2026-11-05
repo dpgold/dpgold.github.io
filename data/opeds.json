@@ -185,7 +185,7 @@
   "outlet": "The Evidence Base",
   "date": "July 1, 2020",
   "year": 2020,
-  "url": "https://healthpolicy.usc.edu/evidence-base/california-leads-in-public-investment-in-biomedical-innovation-and-it-is-beginning-to-show-returns/",
+  "url": "https://schaeffer.usc.edu/research/california-leads-in-public-investment-in-biomedical-innovation-and-it-is-beginning-to-show-returns/",
   "id": 20
  },
  {
@@ -608,7 +608,7 @@
   "outlet": "New York Times",
   "date": "November 23, 2012",
   "year": 2012,
-  "url": "https://economix.blogs.nytimes.com/2012/11/23/health-insurance-exchanges-may-be-too-small-to-succeed/?_r=0",
+  "url": "https://archive.nytimes.com/economix.blogs.nytimes.com/2012/11/23/health-insurance-exchanges-may-be-too-small-to-succeed/?_r=0",
   "id": 67
  },
  {
@@ -635,7 +635,7 @@
   "outlet": "Institute of Medicine Commentary",
   "date": "January 27, 2012",
   "year": 2012,
-  "url": "https://nam.edu/perspectives-2012-benefit-design-should-reflect-value/",
+  "url": "https://nam.edu/perspectives/benefit-design-should-reflect-value/",
   "id": 70
  },
  {
@@ -653,7 +653,7 @@
   "outlet": "Huffington Post",
   "date": "May 31, 2011",
   "year": 2011,
-  "url": "https://www.huffingtonpost.com/dana-p-goldman/congress-and-medicare_b_869226.html",
+  "url": "https://www.huffpost.com/entry/congress-and-medicare_b_869226",
   "id": 72
  },
  {
@@ -662,7 +662,7 @@
   "outlet": "New York Times",
   "date": "January 19, 2010",
   "year": 2010,
-  "url": "https://economix.blogs.nytimes.com/2010/01/19/can-immigrants-solve-our-health-care-problems/",
+  "url": "https://archive.nytimes.com/economix.blogs.nytimes.com/2010/01/19/can-immigrants-solve-our-health-care-problems/",
   "id": 73
  },
  {
@@ -671,7 +671,7 @@
   "outlet": "New York Times",
   "date": "December 9, 2009",
   "year": 2009,
-  "url": "https://economix.blogs.nytimes.com/2009/12/09/i-am-a-death-panelist-i-am-not-the-problem/",
+  "url": "https://archive.nytimes.com/economix.blogs.nytimes.com/2009/12/09/i-am-a-death-panelist-i-am-not-the-problem/",
   "id": 74
  },
  {
@@ -680,7 +680,7 @@
   "outlet": "CNN.com",
   "date": "August 21, 2009",
   "year": 2009,
-  "url": "https://www.rand.org/blog/2009/08/fix-the-healthcare-system-and-fight-the-recession-too.html",
+  "url": "https://www.rand.org/pubs/commentary/2009/08/fix-the-healthcare-system-and-fight-the-recession-too.html",
   "id": 75
  },
  {
@@ -689,7 +689,7 @@
   "outlet": "New York Times",
   "date": "June 23, 2009",
   "year": 2009,
-  "url": "https://economix.blogs.nytimes.com/2009/06/23/americas-health-care-priorities-i-consumers-patients-workers/",
+  "url": "https://archive.nytimes.com/economix.blogs.nytimes.com/2009/06/23/americas-health-care-priorities-i-consumers-patients-workers/",
   "id": 76
  },
  {
@@ -698,7 +698,7 @@
   "outlet": "KQED Healthy Ideas",
   "date": "April 29, 2009",
   "year": 2009,
-  "url": "https://blogs.kqed.org/healthyideas/2009/04/29/its-about-limiting-treatment-to-those-who-need-it/comment-page-1/",
+  "url": "",
   "id": 77
  },
  {
@@ -716,7 +716,7 @@
   "outlet": "United Press International",
   "date": "February 20, 2006",
   "year": 2006,
-  "url": "https://www.rand.org/blog/2006/02/the-hsa-mirage.html",
+  "url": "https://www.rand.org/pubs/commentary/2006/02/the-hsa-mirage.html",
   "id": 79
  },
  {
@@ -725,7 +725,7 @@
   "outlet": "Riverside Press Enterprise",
   "date": "October 24, 2005",
   "year": 2005,
-  "url": "https://www.rand.org/blog/2005/10/pressure-from-rising-health-care-costs-how-can-consumers.html",
+  "url": "https://www.rand.org/pubs/commentary/2005/10/pressure-from-rising-health-care-costs-how-can-consumers.html",
   "id": 80
  },
  {
@@ -743,7 +743,7 @@
   "outlet": "Los Angeles Times",
   "date": "December 11, 2002",
   "year": 2002,
-  "url": "https://www.rand.org/blog/2002/12/take-two-aspirin-and-call-congress.html",
+  "url": "https://www.rand.org/pubs/commentary/2002/12/take-two-aspirin-and-call-congress.html",
   "id": 82
  },
  {
@@ -752,7 +752,7 @@
   "outlet": "Los Angeles Times",
   "date": "November 5, 2000",
   "year": 2000,
-  "url": "https://articles.latimes.com/2000/nov/05/opinion/op-47267",
+  "url": "https://www.latimes.com/archives/la-xpm-2000-nov-05-op-47267-story.html",
   "id": 83
  }
 ]

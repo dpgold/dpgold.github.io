@@ -1,8 +1,8 @@
 """Render index.html from data/*.json.  Run:  py build.py"""
-import datetime, html, json, pathlib
+import datetime, html, json, pathlib, re
 from collections import defaultdict
 
-VERSION = "1.5.0"
+VERSION = "1.6.0"
 UPDATED = "November 2026"
 
 ROOT = pathlib.Path(__file__).parent
@@ -34,8 +34,15 @@ def author_html(a):
     return s
 
 
+def icon(name, color):
+    # Inline the icon's path(s) from img/icons/<name>.svg (Simple Icons, CC0; institution.svg is our own).
+    svg = (ROOT / "img" / "icons" / f"{name}.svg").read_text(encoding="utf-8")
+    paths = "".join(re.findall(r"<path[^>]*/>", svg))
+    return f'<svg class="ico" viewBox="0 0 24 24" aria-hidden="true" fill="{color}">{paths}</svg>'
+
+
 def hero():
-    links = "".join(f'<a class="pill" href="{e(l["url"])}" target="_blank" rel="noopener">{e(l["label"])}</a>' for l in P["links"])
+    links = "".join(f'<a class="pill" href="{e(l["url"])}" target="_blank" rel="noopener">{icon(l["icon"], l["color"])}{e(l["label"])}</a>' for l in P["links"])
     stats = "".join(f'<div class="stat"><span class="n">{e(s["n"])}</span><span class="l">{e(s["label"])}</span></div>' for s in P["stats"])
     return f"""
 <header class="hero">
@@ -172,10 +179,17 @@ def disclosures():
             f'<p class="lede">Sources of research support, personal fees, and equity interests, all years.</p>{groups}</section>')
 
 
+def cv():
+    return ('<section id="cv"><h2>Curriculum vitae</h2>'
+            '<p class="lede">Full CV, updated October 2026. <a class="pill dl" href="Goldman-CV.pdf" download>Download PDF</a></p>'
+            '<object class="cvframe" data="Goldman-CV.pdf" type="application/pdf">'
+            '<p>Your browser can’t show the PDF here. <a href="Goldman-CV.pdf">Open the CV</a>.</p></object></section>')
+
+
 nav_items = [("about", "About"), ("experience", "Experience"), ("publications", "Publications"), ("grants", "Grants"), ("opeds", "Op-eds")]
 if POSTS:
     nav_items.append(("linkedin", "LinkedIn"))
-nav_items += [("honors", "Honors"), ("disclosures", "Disclosures")]
+nav_items += [("honors", "Honors"), ("disclosures", "Disclosures"), ("cv", "CV")]
 nav = "".join(f'<a href="#{i}">{t}</a>' for i, t in nav_items)
 
 page = f"""<!doctype html>
@@ -207,6 +221,7 @@ page = f"""<!doctype html>
 {linkedin()}
 {honors()}
 {disclosures()}
+{cv()}
 </main>
 <footer class="wrap"><span>© {e(P['name'])}</span><span>Updated {UPDATED} · v{VERSION}</span></footer>
 <script src="site.js?v={VERSION}"></script>

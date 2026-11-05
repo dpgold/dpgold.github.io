@@ -2,12 +2,13 @@
 import html, json, pathlib
 from collections import defaultdict
 
-VERSION = "1.1.0"
+VERSION = "1.2.0"
 UPDATED = "November 2026"
 
 ROOT = pathlib.Path(__file__).parent
 load = lambda n: json.loads((ROOT / "data" / n).read_text(encoding="utf-8"))
 P, PUBS, OPEDS, POSTS = load("profile.json"), load("publications.json"), load("opeds.json"), load("linkedin.json")
+GRANTS = load("grants.json")
 e = lambda s: html.escape(str(s), quote=True)
 
 THEMES = {"aging": "Aging & longevity", "drugs": "Drug pricing & insurance design",
@@ -100,6 +101,17 @@ and <a href="https://orcid.org/0000-0001-8498-6396" target="_blank" rel="noopene
 <h2 class="sub">Books &amp; chapters</h2><ul class="pubs books">{books}</ul></section>"""
 
 
+def grants():
+    rows = "".join(
+        f'<li><span class="gy">{e(g["years"])}</span><span class="gt">{e(g["title"])}'
+        f'<span class="gs">{e(g["sponsor"])}{" · Co-PI" if g["role"] else ""}</span></span>'
+        f'<span class="ga">${g["amount"]:,}</span></li>'
+        for g in GRANTS)
+    return (f'<section id="grants"><h2>Selected grants</h2>'
+            f'<p class="lede">Major federal and foundation awards as principal or co-principal investigator, from the National Institutes of Health, '
+            f'AHRQ, CMS, and the MacArthur Foundation, among others.</p><ul class="grants">{rows}</ul></section>')
+
+
 def opeds():
     by_year = defaultdict(list)
     for o in OPEDS:
@@ -141,7 +153,7 @@ def honors():
     return f'<section id="honors"><h2>Honors</h2><ul class="honors">{h}</ul><h2 class="sub">Service &amp; advisory</h2><ul class="edu">{s}</ul></section>'
 
 
-nav_items = [("about", "About"), ("experience", "Experience"), ("publications", "Publications"), ("opeds", "Op-eds")]
+nav_items = [("about", "About"), ("experience", "Experience"), ("publications", "Publications"), ("grants", "Grants"), ("opeds", "Op-eds")]
 if POSTS:
     nav_items.append(("linkedin", "LinkedIn"))
 nav_items.append(("honors", "Honors"))
@@ -168,6 +180,7 @@ page = f"""<!doctype html>
 {about()}
 {experience()}
 {publications()}
+{grants()}
 {opeds()}
 {linkedin()}
 {honors()}

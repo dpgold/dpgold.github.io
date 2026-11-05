@@ -99,6 +99,13 @@ a.pt:hover { color: var(--accent); }
 .pm { color: var(--muted); font-size: 13px; }
 .more { font-size: 12px; color: #aaa; }
 
+.grants { list-style: none; padding: 0; margin: 0; }
+.grants li { display: grid; grid-template-columns: 96px 1fr auto; gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--line); align-items: baseline; }
+.gy { color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+.gt { font: 600 16px/1.35 var(--serif); }
+.gs { display: block; font: 13px var(--sans); color: var(--muted); margin-top: 2px; }
+.ga { font-weight: 600; font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+
 footer { display: flex; justify-content: space-between; color: var(--faint); font-size: 13px; padding: 48px 16px 32px; border-top: 1px solid var(--line); margin-top: 48px; }
 .hidden { display: none !important; }
 
@@ -120,4 +127,6 @@ footer { display: flex; justify-content: space-between; color: var(--faint); fon
   input[type=search] { min-width: 0; flex: 1; }
   nav.top .brand { display: none; }
   footer { flex-direction: column; gap: 4px; }
+  .grants li { grid-template-columns: 1fr auto; gap: 2px 12px; }
+  .gy { grid-column: 1 / -1; }
 }

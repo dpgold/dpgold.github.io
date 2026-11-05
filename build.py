@@ -2,7 +2,7 @@
 import html, json, pathlib
 from collections import defaultdict
 
-VERSION = "1.4.0"
+VERSION = "1.4.1"
 UPDATED = "November 2026"
 
 ROOT = pathlib.Path(__file__).parent
@@ -177,6 +177,10 @@ page = f"""<!doctype html>
 <meta property="og:title" content="{e(P['name'])}">
 <meta property="og:description" content="{e(P['headline'])}">
 <meta property="og:image" content="https://dpgold.github.io/img/og.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#990000">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css?v={VERSION}">

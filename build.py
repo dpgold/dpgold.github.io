@@ -2,7 +2,7 @@
 import datetime, html, json, pathlib, re
 from collections import defaultdict
 
-VERSION = "1.11.2"
+VERSION = "1.12.0"
 UPDATED = "November 2026"
 
 ROOT = pathlib.Path(__file__).parent
@@ -221,7 +221,7 @@ page = f"""<!doctype html>
 <link rel="stylesheet" href="style.css?v={VERSION}">
 </head>
 <body>
-<nav class="top"><div class="wrap"><a class="brand" href="#about">{e(P['name'])}</a><div class="links">{nav}</div></div></nav>
+<nav class="top"><div class="wrap"><span class="ver" title="Site version">v{VERSION}</span><a class="brand" href="#about">{e(P['name'])}</a><div class="links">{nav}</div></div></nav>
 <main class="wrap">
 {about()}
 {experience()}

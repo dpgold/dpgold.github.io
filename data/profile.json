@@ -316,5 +316,10 @@
  "titles": [
   "Founding Director, USC Schaeffer Institute for Public Policy & Government Service",
   "University Professor of Public Policy, Pharmacy, and Economics"
- ]
+ ],
+ "institution": {
+  "name": "University of Southern California",
+  "url": "https://www.usc.edu/",
+  "logo": ""
+ }
 }

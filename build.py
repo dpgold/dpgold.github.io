@@ -2,7 +2,7 @@
 import datetime, html, json, pathlib, re
 from collections import defaultdict
 
-VERSION = "1.9.2"
+VERSION = "1.9.3"
 UPDATED = "November 2026"
 
 ROOT = pathlib.Path(__file__).parent
@@ -50,6 +50,7 @@ def hero():
   <div class="hero-text">
     <h1>{e(P['name'])}</h1>
     <p class="headline">{"".join(f'<span>{e(x)}</span>' for x in P['titles'])}</p>
+    <p class="inst">{f'<img src="{e(P["institution"]["logo"])}" alt="" width="28" height="28">' if P["institution"]["logo"] else ""}<a href="{e(P['institution']['url'])}" target="_blank" rel="noopener">{e(P['institution']['name'])}</a></p>
     <p class="loc">{e(P['location'])}</p>
     <nav class="pills" aria-label="Profiles">{links}</nav>
   </div>

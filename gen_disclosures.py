@@ -5,7 +5,11 @@ expiration, grouped by support type, sponsors de-duplicated and sorted.
 """
 import datetime, json, pathlib
 
-SRC = pathlib.Path.home() / "OneDrive - University of Southern California/Schaeffer Inst Dir Office/DATA/DirDash/Disclosures/disclosures-data.json"
+# The SharePoint site's local folder has had several names across machines; take the first that exists.
+_OD = pathlib.Path.home() / "OneDrive - University of Southern California"
+_REL = "DATA/DirDash/Disclosures/disclosures-data.json"
+SRC = next((_OD / n / _REL for n in ("Schaeffer", "Schaeffer Inst Dir Office", "Schaeffer Inst Dir Office - Documents", "Schaeffer Sharepoint")
+            if (_OD / n / _REL).is_file()), _OD / "Schaeffer" / _REL)
 OUT = pathlib.Path(__file__).parent / "data" / "disclosures.json"
 
 # Sponsors to leave off the public site (type, sponsor).
